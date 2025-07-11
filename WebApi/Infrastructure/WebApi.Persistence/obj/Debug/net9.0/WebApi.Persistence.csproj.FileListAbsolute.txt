@@ -1,0 +1,477 @@
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.sourcelink.json
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\Birleşmiş\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.sourcelink.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.deps.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.runtimeconfig.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Infrastructure.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.AssemblyInfo.cs
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.sourcelink.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.P.385E7FB2.Up2Date
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\refint\WebApi.Persistence.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\WebApi.Persistence.genruntimeconfig.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Infrastructure\WebApi.Persistence\obj\Debug\net9.0\ref\WebApi.Persistence.dll

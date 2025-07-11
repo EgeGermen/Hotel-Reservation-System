@@ -1,0 +1,22 @@
+<div class="destek-kapsayici">
+  <div *ngIf="gonderildi" class="toast-notification">Mailiniz gönderildi.</div>
+  <h2>Destek & İletişim</h2>
+  <div class="sss">
+    <h3>Sıkça Sorulan Sorular</h3>
+    <div class="sss-soru">
+      <div class="sss-baslik">Rezervasyonumu nasıl iptal edebilirim?</div>
+      <div class="sss-yanit">Kullanıcı panelinizden rezervasyonunuzu kolayca iptal edebilirsiniz.</div>
+    </div>
+    <div class="sss-soru">
+      <div class="sss-baslik">Ödeme yöntemleri nelerdir?</div>
+      <div class="sss-yanit">Kredi kartı ve banka kartı ile ödeme yapabilirsiniz.</div>
+    </div>
+  </div>
+  <form class="iletisim-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <h3>İletişim Formu</h3>
+    <input type="text" placeholder="Ad Soyad" name="adSoyad" [(ngModel)]="adSoyad" required />
+    <input type="email" placeholder="E-posta" name="email" [(ngModel)]="email" required />
+    <textarea placeholder="Mesajınız" name="mesaj" [(ngModel)]="mesaj" required></textarea>
+    <button class="gonder-btn" type="submit" [disabled]="!adSoyad || !email || !mesaj">Gönder</button>
+  </form>
+</div>

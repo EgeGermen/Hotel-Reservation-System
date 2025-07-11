@@ -1,0 +1,11 @@
+<div *ngIf="girisYapildi" class="toast-notification">Giriş yaptınız.</div>
+<form class="kayit-form animate" #loginForm="ngForm" (ngSubmit)="onLogin()">
+  <h2>Kullanıcı Girişi</h2>
+  <input type="email" id="email" name="email" [(ngModel)]="email" placeholder="E-posta" required email #emailInput="ngModel">
+  <input type="password" id="password" name="password" [(ngModel)]="password" placeholder="Şifre" required #passwordInput="ngModel">
+  <button type="submit" [disabled]="loginForm.invalid || loading">
+    <span *ngIf="!loading">Giriş Yap</span>
+    <span *ngIf="loading">Giriş Yapılıyor...</span>
+  </button>
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+</form>

@@ -1,0 +1,116 @@
+<!-- Hero Search -->
+<section class="hero">
+  <div class="hero__content">
+    <h1>Hayalinizdeki Oteli Bulun</h1>
+    <p>En iyi fiyatlarla, en iyi oteller burada!</p>
+    <form [formGroup]="searchForm" (ngSubmit)="onSearchSubmit()" class="search-form">
+      <select 
+        formControlName="sehir" 
+        class="search-form__input" 
+        aria-label="Şehir Seçiniz">
+        <option value="">Şehir Seçiniz (Opsiyonel)</option>
+        <option value="İstanbul">İstanbul</option>
+        <option value="Antalya">Antalya</option>
+        <option value="Aydın">Aydın</option>
+        <option value="Bolu">Bolu</option>
+        <option value="İzmir">İzmir</option>
+        <option value="Ankara">Ankara</option>
+      </select>
+
+      <input 
+        type="text" 
+        formControlName="otelAdi"
+        placeholder="Otel Adı (Opsiyonel)" 
+        class="search-form__input" 
+        aria-label="Otel Adı" />
+
+      <div class="search-form__date-group">
+        <label for="giris-tarihi">Giriş Tarihi (Opsiyonel)</label>
+        <input 
+          id="giris-tarihi" 
+          type="date" 
+          formControlName="girisTarihi"
+          [min]="getMinDate()"
+          (change)="validateDates()"
+          class="search-form__input" />
+      </div>
+
+      <div class="search-form__date-group">
+        <label for="cikis-tarihi">Çıkış Tarihi (Opsiyonel)</label>
+        <input 
+          id="cikis-tarihi" 
+          type="date" 
+          formControlName="cikisTarihi"
+          [min]="getMinCheckoutDate()"
+          (change)="validateDates()"
+          class="search-form__input" />
+        <div class="invalid-feedback" *ngIf="searchForm.get('cikisTarihi')?.errors?.['invalidDate']">
+          Çıkış tarihi giriş tarihinden sonra olmalıdır
+        </div>
+      </div>
+
+      <select 
+        formControlName="kisiSayisi"
+        class="search-form__input">
+        <option value="">Kişi Sayısı Seçin</option>
+        <option value="1">1 Kişi</option>
+        <option value="2">2 Kişi</option>
+        <option value="3">3 Kişi</option>
+        <option value="4">4 Kişi</option>
+        <option value="5+">5+ Kişi</option>
+      </select>
+
+      <button 
+        type="submit" 
+        class="search-form__button">
+        <i class="fas fa-search"></i> Otel Ara
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- Campaign Banner -->
+<section class="campaign">
+  <div class="campaign__banner">
+    <span>Yaza Özel %30 İndirim!</span>
+  </div>
+</section>
+
+<!-- Discounted Hotels Slider -->
+<section class="discounted-hotels" id="discounted-hotels">
+  <h2>Popüler Oteller</h2>
+  <div class="discounted-hotels__slider">
+    <ng-container *ngFor="let i of [1,2]">
+      <ng-container *ngFor="let otel of populerOteller">
+        <div class="discounted-hotel-card" [routerLink]="['/otel-detay', otel.id]">
+          <img [src]="getOtelImage(otel)" [alt]="otel.otelAdi" />
+          <div class="discounted-hotel-card__info">
+            <h3>{{ otel.otelAdi }}</h3>
+            <p>{{ otel.sehir }}</p>
+            <span class="discounted-hotel-card__price">
+              {{ minOdaFiyatlari[otel.id] !== undefined && minOdaFiyatlari[otel.id] !== null ? '₺' + minOdaFiyatlari[otel.id] + ' başlayan fiyatlarla' : 'Fiyat Yok' }}
+            </span> 
+          </div>
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
+</section>
+
+<!-- Popular Hotels -->
+<section class="hotels">
+  <h2>Oteller</h2>
+  <div class="hotels__list">
+    <div class="hotel-card" *ngFor="let otel of tumOteller" [routerLink]="['/otel-detay', otel.id]">
+      <img [src]="getOtelImage(otel)" [alt]="otel.otelAdi" />
+      <div class="hotel-card__info">
+        <h3>{{ otel.otelAdi }}</h3>
+        <p>{{ otel.sehir }}, {{ otel.ulke }}</p>
+        <span class="hotel-card__price">
+          {{ minOdaFiyatlari[otel.id] !== undefined && minOdaFiyatlari[otel.id] !== null ? "₺" + minOdaFiyatlari[otel.id] + " ' den başlayan fiyatlarla" : "Fiyat Yok" }}
+        </span>
+        <span class="hotel-card__rating" *ngIf="hesaplananPuan(otel) > 0">★ {{ hesaplananPuan(otel) }}</span>
+      </div>
+    </div>
+  </div>
+</section>

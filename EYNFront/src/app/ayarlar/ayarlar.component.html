@@ -1,0 +1,39 @@
+<div class="ayarlar-container">
+  <h2>Hesap Ayarları</h2>
+  <form #ayarForm="ngForm" (ngSubmit)="kaydet(ayarForm)">
+    <label>
+      Ad Soyad
+      <input type="text" [(ngModel)]="user.adiSoyadi" name="adiSoyadi" required #adiSoyadiInput="ngModel">
+      <div *ngIf="adiSoyadiInput.invalid && (adiSoyadiInput.dirty || adiSoyadiInput.touched)" class="error">
+        Ad Soyad boş bırakılamaz.
+      </div>
+    </label>
+    <label>
+      E-posta
+      <input type="email" [(ngModel)]="user.email" name="email" required email #emailInput="ngModel">
+      <div *ngIf="emailInput.invalid && (emailInput.dirty || emailInput.touched)" class="error">
+        <span *ngIf="emailInput.errors?.['required']">E-posta boş bırakılamaz.</span>
+        <span *ngIf="emailInput.errors?.['email']">Geçerli bir e-posta giriniz.</span>
+      </div>
+    </label>
+    <label>
+      Telefon (isteğe bağlı)
+      <input type="tel" [(ngModel)]="user.telefon" name="telefon" placeholder="Telefon numarası">
+    </label>
+    <label>
+      Eski Şifre
+      <input type="password" [(ngModel)]="eskiSifre" name="eskiSifre" placeholder="Mevcut şifreniz">
+    </label>
+    <label>
+      Yeni Şifre
+      <input type="password" [(ngModel)]="yeniSifre" name="yeniSifre" placeholder="Yeni şifre (değiştirmek için)">
+    </label>
+    <label>
+      Yeni Şifre Tekrar
+      <input type="password" [(ngModel)]="yeniSifreTekrar" name="yeniSifreTekrar" placeholder="Yeni şifre tekrar">
+    </label>
+    <button type="submit" [disabled]="ayarForm.invalid">Kaydet</button>
+    <div *ngIf="mesaj" class="mesaj">{{ mesaj }}</div>
+    <div *ngIf="hata" class="error">{{ hata }}</div>
+  </form>
+</div>

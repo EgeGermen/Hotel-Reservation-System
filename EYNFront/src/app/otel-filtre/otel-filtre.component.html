@@ -1,0 +1,173 @@
+<div class="otel-filtre-sidebar">
+  <div class="sidebar-header">
+    <h4>Filtreler</h4>
+    <div class="filter-count" *ngIf="getActiveFilterCount() > 0">
+      <span class="badge bg-primary">{{ getActiveFilterCount() }}</span>
+    </div>
+    <button 
+      class="btn btn-sm btn-outline-secondary" 
+      (click)="clearFilters()"
+      *ngIf="getActiveFilterCount() > 0">
+      <i class="fas fa-times"></i> Temizle
+    </button>
+  </div>
+
+  <form [formGroup]="filtreForm" class="filter-form">
+    <!-- Arama -->
+    <div class="filter-section">
+      <h5>Arama</h5>
+      <div class="form-group">
+        <input 
+          type="text" 
+          formControlName="aramaMetni"
+          class="form-control"
+          placeholder="Otel adı, şehir veya ülke ara...">
+        <i class="fas fa-search search-icon"></i>
+      </div>
+    </div>
+
+    <!-- Şehir Filtresi -->
+    <div class="filter-section">
+      <h5>Şehir</h5>
+      <div class="form-group">
+        <select formControlName="sehir" class="form-select">
+          <option value="">Tüm Şehirler</option>
+          <option 
+            *ngFor="let sehir of sehirler" 
+            [value]="sehir">
+            {{ sehir }} ({{ getSehirCount(sehir) }})
+          </option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Ülke Filtresi -->
+    <div class="filter-section">
+      <h5>Ülke</h5>
+      <div class="form-group">
+        <select formControlName="ulke" class="form-select">
+          <option value="">Tüm Ülkeler</option>
+          <option 
+            *ngFor="let ulke of ulkeler" 
+            [value]="ulke">
+            {{ ulke }} ({{ getUlkeCount(ulke) }})
+          </option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Puan Filtresi -->
+    <div class="filter-section">
+      <h5>Puan Aralığı</h5>
+      <div class="rating-filter">
+        <div class="rating-range">
+          <label>Min Puan: {{ getPuanLabel(filtreForm.get('minPuan')?.value) }}</label>
+          <input 
+            type="range" 
+            formControlName="minPuan"
+            min="0" 
+            max="10" 
+            step="1"
+            class="form-range"
+            (input)="onPuanChange()">
+        </div>
+        
+        <div class="rating-range">
+          <label>Max Puan: {{ getPuanLabel(filtreForm.get('maxPuan')?.value) }}</label>
+          <input 
+            type="range" 
+            formControlName="maxPuan"
+            min="0" 
+            max="10" 
+            step="1"
+            class="form-range"
+            (input)="onPuanChange()">
+        </div>
+
+        <div class="rating-display">
+          <div class="stars">
+            <i *ngFor="let i of [1,2,3,4,5,6,7,8,9,10]" 
+               [class]="i <= filtreForm.get('minPuan')?.value ? 'fas fa-star text-warning' : 'far fa-star text-muted'"
+               style="font-size: 10px;"></i>
+          </div>
+          <span class="rating-text">
+            {{ filtreForm.get('minPuan')?.value }} - {{ filtreForm.get('maxPuan')?.value }}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hızlı Puan Filtreleri -->
+    <div class="filter-section">
+      <h5>Hızlı Puan Filtreleri</h5>
+      <div class="quick-filters">
+        <button 
+          type="button"
+          class="btn btn-sm btn-outline-primary quick-filter-btn"
+          (click)="filtreForm.patchValue({minPuan: 8, maxPuan: 10})">
+          <i class="fas fa-star"></i> 8+ Puan
+        </button>
+        <button 
+          type="button"
+          class="btn btn-sm btn-outline-primary quick-filter-btn"
+          (click)="filtreForm.patchValue({minPuan: 6, maxPuan: 10})">
+          <i class="fas fa-star"></i> 6+ Puan
+        </button>
+        <button 
+          type="button"
+          class="btn btn-sm btn-outline-primary quick-filter-btn"
+          (click)="filtreForm.patchValue({minPuan: 4, maxPuan: 10})">
+          <i class="fas fa-star"></i> 4+ Puan
+        </button>
+      </div>
+    </div>
+
+    <!-- Sıralama -->
+    <div class="filter-section">
+      <h5>Sıralama</h5>
+      <div class="form-group">
+        <select formControlName="siralama" class="form-select">
+          <option value="otelAdi">Otel Adı (A-Z)</option>
+          <option value="sehir">Şehir</option>
+          <option value="ulke">Ülke</option>
+          <option value="puan">Puana Göre (Yüksek-Düşük)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Sonuç Bilgisi -->
+    <div class="filter-section results-info" *ngIf="!loading">
+      <div class="results-summary">
+        <i class="fas fa-info-circle"></i>
+        <span>{{ getFilteredOteller().length }} otel bulundu</span>
+      </div>
+    </div>
+
+    <!-- Yükleme -->
+    <div class="filter-section loading-info" *ngIf="loading">
+      <div class="spinner-border spinner-border-sm text-primary" role="status">
+        <span class="visually-hidden">Yükleniyor...</span>
+      </div>
+      <span>Filtreler yükleniyor...</span>
+    </div>
+  </form>
+
+  <!-- Mobil Kapatma Butonu -->
+  <div class="mobile-close">
+    <button class="btn btn-secondary btn-sm" (click)="closeSidebar()">
+      <i class="fas fa-times"></i> Kapat
+    </button>
+  </div>
+</div>
+
+<!-- Otel Sonuçları (örnek) -->
+<div class="otel-list" *ngIf="getFilteredOteller().length">
+  <div class="otel-card" *ngFor="let otel of getFilteredOteller()">
+    <img [src]="getOtelImage(otel)" [alt]="otel.otelAdi" style="width:120px; height:80px; object-fit:cover; border-radius:8px; margin-right:12px;" />
+    <div class="otel-info">
+      <div class="otel-title">{{ otel.otelAdi }}</div>
+      <div class="otel-meta">{{ otel.sehir }}, {{ otel.ulke }}</div>
+      <div class="otel-meta">Puan: {{ otel.puan || '-' }}</div>
+    </div>
+  </div>
+</div>

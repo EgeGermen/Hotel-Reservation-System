@@ -1,0 +1,25 @@
+<div class="rez-onay">
+  <h2>Rezervasyon Onayı</h2>
+  <div class="onay-kart">
+    <h3>{{ otelAdi || 'Otel' }}</h3>
+    <div>Oda: <strong>{{ odaAdi || '-' }}</strong></div>
+    <div>Kişi Sayısı: <strong>{{ kisiSayisi }}</strong></div>
+    <div *ngIf="(cocukSayisi || 0) > 0">
+      Çocuk:
+      <span *ngFor="let c of cocukYasOzet; let last = last">
+        {{c.count}} x {{c.yas}} yaş{{!last ? ', ' : ''}}
+      </span>
+      <span *ngIf="cocukYasOzet.length === 0">-</span>
+    </div>
+    <div>Giriş Tarihi: <strong>{{ girisTarihi }}</strong></div>
+    <div>Çıkış Tarihi: <strong>{{ cikisTarihi }}</strong></div>
+    <div>Toplam Fiyat: <span class="fiyat">₺{{ toplamFiyat }}</span></div>
+    <div>Ad Soyad: <strong>{{ ad }} {{ soyad }}</strong></div>
+    <div>E-posta: <strong>{{ email }}</strong></div>
+    <div>Telefon: <strong>{{ telefon }}</strong></div>
+  </div>
+  <div class="onay-basarili">
+    <span class="onay-ikon">✔</span>
+    <p>Rezervasyonunuz <b>Onaylandı</b>!<br>Onay e-postası gönderildi.</p>
+  </div>
+</div>

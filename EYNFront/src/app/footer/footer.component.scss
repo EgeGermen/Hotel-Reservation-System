@@ -1,0 +1,116 @@
+.footer {
+  background: #f1f5f9;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  &__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    span {
+      color: #64748b;
+    }
+  }
+  &__links {
+    display: flex;
+    gap: 2rem;
+    a {
+      color: #2d3a4b;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+      &:hover {
+        color: #0077ff;
+      }
+    }
+  }
+}
+
+// Responsive
+@media (max-width: 900px) {
+  .hotels__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hotel-card {
+    width: 90vw;
+    max-width: 400px;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    &__links {
+      gap: 1rem;
+    }
+  }
+}
+
+.footer__info {
+  max-width: 500px;
+  margin: 0.5rem auto 0 auto;
+  background: #f4f7fb;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  color: #2d3a4b;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  opacity: 1;
+  max-height: 300px;
+  overflow: hidden;
+  transition: opacity 0.3s, max-height 0.3s;
+}
+.footer__info.hide {
+  opacity: 0;
+  max-height: 0;
+  padding: 0 1.5rem;
+  pointer-events: none;
+}
+.footer__info.show {
+  opacity: 1;
+  max-height: 300px;
+  padding: 1rem 1.5rem;
+  pointer-events: auto;
+}
+
+.footer-modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(44, 62, 80, 0.35);
+  z-index: 1000;
+}
+.footer-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 2rem 2.2rem 1.5rem 2.2rem;
+  z-index: 1001;
+  min-width: 320px;
+  max-width: 90vw;
+  max-height: 80vh;
+  overflow-y: auto;
+  text-align: left;
+  animation: modal-pop 0.25s cubic-bezier(.68,-0.55,.27,1.55);
+}
+.footer-modal__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #0077ff;
+  cursor: pointer;
+  z-index: 1002;
+  line-height: 1;
+}
+@keyframes modal-pop {
+  0% { transform: translate(-50%, -60%) scale(0.95); opacity: 0; }
+  100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}

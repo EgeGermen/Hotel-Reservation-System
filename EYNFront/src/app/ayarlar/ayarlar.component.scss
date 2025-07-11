@@ -1,0 +1,82 @@
+.ayarlar-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  padding: 32px 24px 24px 24px;
+}
+
+.ayarlar-container h2 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 24px;
+  font-size: 1.3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #333;
+  gap: 4px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border: 1.5px solid #1976d2;
+}
+
+button[type="submit"] {
+  background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+  transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(90deg, #1565c0 60%, #1976d2 100%);
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 0.95em;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.mesaj {
+  color: #388e3c;
+  font-size: 0.95em;
+  margin-top: 2px;
+  margin-left: 2px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .ayarlar-container {
+    padding: 16px 4px 12px 4px;
+    max-width: 98vw;
+  }
+}

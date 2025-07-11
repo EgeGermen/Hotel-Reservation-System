@@ -1,0 +1,30 @@
+<footer class="footer">
+  <div class="footer__content">
+    <span>© 2024 EYN Hotel. Tüm hakları saklıdır.</span>
+    <div class="footer__links">
+      <a href="javascript:void(0)" (click)="toggleAbout()">Hakkımızda</a>
+      <a href="/destek">İletişim</a>
+      <a href="javascript:void(0)" (click)="togglePrivacy()">Gizlilik</a>
+    </div>
+  </div>
+
+  <!-- Hakkımızda Modal -->
+  <div class="footer-modal-backdrop" *ngIf="showAbout" (click)="toggleAbout()"></div>
+  <div class="footer-modal" *ngIf="showAbout">
+    <button class="footer-modal__close" (click)="toggleAbout()">&times;</button>
+    <h3>Hakkımızda</h3>
+    <p>
+      EYN Hotel, misafirlerine en iyi konaklama deneyimini sunmayı amaçlayan yenilikçi bir platformdur. Hakkımızda daha fazla bilgi için bizimle iletişime geçebilirsiniz.
+    </p>
+  </div>
+
+  <!-- Gizlilik Modal -->
+  <div class="footer-modal-backdrop" *ngIf="showPrivacy" (click)="togglePrivacy()"></div>
+  <div class="footer-modal" *ngIf="showPrivacy">
+    <button class="footer-modal__close" (click)="togglePrivacy()">&times;</button>
+    <h3>Gizlilik</h3>
+    <p>
+      Gizliliğiniz bizim için önemlidir. Kişisel verileriniz, yasal düzenlemelere uygun olarak korunur ve asla üçüncü şahıslarla paylaşılmaz.
+    </p>
+  </div>
+</footer>

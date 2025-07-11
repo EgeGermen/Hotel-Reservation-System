@@ -1,0 +1,187 @@
+<div class="otel-detay">
+  <div *ngIf="loading">Yükleniyor...</div>
+  <ng-container *ngIf="!loading && otel">
+    
+    <!-- Galeri -->
+    <div class="otel-galeri">
+      <div class="otel-galeri__slider-container">
+        <button class="slider-arrow left" (click)="oncekiResim()">&#8249;</button>
+        <img class="otel-galeri__ana" [src]="seciliResimUrl" [alt]="otel.otelAdi" (click)="galeriAc(0)" style="cursor:pointer;" />
+        <button class="slider-arrow right" (click)="sonrakiResim()">&#8250;</button>
+      </div>
+      <div class="otel-galeri__thumbs">
+        <img *ngFor="let resim of otelResimler; let i = index"
+             [src]="resim.resimUrl"
+             [alt]="otel.otelAdi"
+             (click)="galeriAc(i)"
+             [class.selected]="seciliResimUrl === resim.resimUrl" />
+      </div>
+    </div>
+
+    <app-galeri-modal
+      *ngIf="galeriAcik"
+      [resimler]="otelResimUrls"
+      [baslangicIndex]="galeriIndex"
+      (close)="galeriAcik = false">
+    </app-galeri-modal>
+
+    <!-- Otel Bilgi ve Rezervasyon -->
+    <div class="otel-bilgi">
+      <h1>{{ otel.otelAdi }}</h1>
+      <div class="otel-bilgi__konum">{{ otel.sehir }}, {{ otel.ulke }}</div>
+      <div class="otel-bilgi__puan" *ngIf="hesaplananPuan > 0">★ {{ hesaplananPuan }}</div>
+      <p class="otel-bilgi__aciklama">{{ otel.adresSatiri1 }}</p>
+      <div class="otel-bilgi__fiyat">İletişim: {{ otel.telefon }} | {{ otel.email }}</div>
+      <button class="rezervasyon-btn" (click)="onRezervasyonYap()">Rezervasyon Yap</button>
+    </div>
+
+    <!-- Oda Tipleri -->
+    <div class="oda-tipleri">
+      <h2>Oda Tipleri</h2>
+      <div class="oda-listesi">
+        <div class="oda-kart" *ngFor="let oda of odaTipleri">
+          
+          <!-- Görsel ve indirim rozetli wrapper -->
+          <div class="oda-kart__resim-wrapper">
+            <img class="oda-kart__ana-resim"
+                 [src]="getOdaTipiImage(oda)"
+                 [alt]="oda.odaTipiAdi"
+                 (click)="odaGaleriAc(oda.id, 0)" />
+
+            <!-- İndirim Rozeti -->
+            <div *ngIf="oda && oda.indirimOrani != null && oda.indirimOrani > 0" class="indirim-rozet">
+
+              %{{ oda?.indirimOrani }} indirim
+            </div>
+          </div>
+
+          <!-- Thumbnail'ler -->
+          <div class="oda-kart__thumbs" *ngIf="odaTipiResimler[oda.id] && odaTipiResimler[oda.id].length > 1">
+            <img *ngFor="let resim of odaTipiResimler[oda.id]; let i = index"
+                 [src]="resim.resimUrl"
+                 [alt]="oda.odaTipiAdi" />
+          </div>
+
+          <!-- Oda Bilgileri -->
+          <div class="oda-kart__bilgi">
+            <h3>{{ oda.odaTipiAdi }}</h3>
+            <p>{{ oda.aciklama }}</p>
+
+            <!-- Fiyat -->
+            <div class="oda-fiyat">
+              <ng-container *ngIf="oda && oda.indirimOrani != null && oda.indirimOrani > 0; else normalFiyat">
+
+                <span class="indirimli-fiyat">
+                  ₺{{ oda.fiyat - (oda.fiyat * oda.indirimOrani / 100) | number:'1.0-0' }}
+                </span>
+                <span class="eski-fiyat">₺{{ oda.fiyat }}</span>
+              </ng-container>
+              <ng-template #normalFiyat>
+                <span class="normal-fiyat">₺{{ oda.fiyat }}</span>
+              </ng-template>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    
+  </ng-container>
+
+
+
+<!-- Yorumlar -->
+<div class="yorumlar-container">
+  <h3 class="yorum-baslik">Misafir Yorumları</h3>
+
+  <div class="yorumlar-listesi-scrollable">
+    <div *ngIf="yorumlar.length > 0; else yorumYok">
+      <div *ngFor="let yorum of yorumlar" class="yorum-kutu">
+        <div class="yorum-header">
+          <div class="yorum-avatar">
+            {{ yorum.kullanici ? (yorum.kullanici[0] | uppercase) : '?' }}
+          </div>
+          <div class="yorum-info">
+            <span class="yorum-kullanici">{{ yorum.kullanici }}</span>
+            <span class="yorum-tarih" *ngIf="yorum.tarih">• {{ yorum.tarih }}</span>
+
+          </div>
+        </div>
+        <p class="yorum-metin">{{ yorum.metin }}</p>
+
+        <div *ngIf="yorum.yildiz" class="yorum-yildizlar">
+          <span *ngFor="let yildiz of [1,2,3,4,5]" [class.dolu]="yildiz <= yorum.yildiz">★</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #yorumYok>
+    <p class="yorum-bos">Bu otele ait henüz yorum yapılmamış.</p>
+  </ng-template>
+
+  <div class="yorum-form">
+    <div class="puanlama">
+      <span *ngFor="let yildiz of [1,2,3,4,5]" 
+            (click)="yildizSec(yildiz)" 
+            [class.dolu]="yildiz <= seciliYildiz">★</span>
+    </div>
+
+    <textarea [(ngModel)]="yeniYorum" placeholder="Yorumunuzu buraya yazın..."></textarea>
+
+    <button (click)="yorumGonder()">Gönder</button>
+
+    <p *ngIf="gonderildi" class="tesekkur-bildirimi">
+      ✔ Geri bildiriminiz alınmıştır, teşekkür ederiz!
+    </p>
+  </div>
+
+  <!-- Tüm Yorumları Gör Butonu -->
+  <button class="tum-yorumlar-btn" (click)="tumYorumlariGoster()">Tüm Yorumları Gör</button>
+
+<!-- Tüm Yorumlar Modalı -->
+<div class="yorum-modal" *ngIf="yorumlarModaliAcik">
+  <div class="modal-icerik">
+    <span class="modal-kapat" (click)="yorumlarModaliAcik = false">&times;</span>
+    <h3>Tüm Yorumlar</h3>
+
+    <div class="tum-yorumlar-listesi">
+      <div *ngFor="let yorum of yorumlar" class="yorum-karti-flex">
+        <div class="yorum-avatar">
+          {{ yorum.kullanici ? yorum.kullanici[0].toUpperCase() : '?' }}
+        </div>
+        <div class="yorum-icerik-flex">
+          <div class="yorum-ust-flex">
+            <strong>{{ yorum.kullanici || 'Bilinmeyen Kullanıcı' }}</strong>
+            <div class="yorum-tarih">{{ yorum.tarih || 'Gizli' }}</div>
+          </div>
+          <div class="yorum-metin">{{ yorum.metin }}</div>
+          <div class="yorum-alt-flex">
+            <div class="yorum-yildiz">
+              <span *ngFor="let s of [1,2,3,4,5]" [class.dolu]="s <= yorum.yildiz">★</span>
+            </div>
+          </div>
+        </div>
+        <button *ngIf="kullaniciAktifMi(yorum.kullanici)"
+                class="yorum-sil-btn-flex"
+                (click)="yorumSil(yorum)">
+          🗑 Sil
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  <!-- Oda tipi galerisi için modal -->
+  <app-galeri-modal
+    *ngIf="acikOdaGaleriId !== null"
+    [resimler]="getOdaTipiResimUrls(acikOdaGaleriId)"
+    [baslangicIndex]="acikOdaGaleriIndex"
+    (close)="acikOdaGaleriId = null">
+  </app-galeri-modal>
+</div>

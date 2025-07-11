@@ -1,0 +1,3335 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "WebApi.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Admin": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Tüm yöneticileri getirir.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AdminDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AdminDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AdminDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Yeni yönetici oluşturur.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Admin/{id}": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Id ile yöneticiyi getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Var olan yöneticiyi günceller.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Id ile yönetici kaydını siler.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/otel/{id}": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Bir otele ait yöneticiyi getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Admin/authenticate": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Yönetici kullanıcı adı ve parola ile kimlik doğrulama yapar.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminLoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminLoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminLoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Admin/{adminId}/oteller": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Bir adminin tüm otellerini getirir.",
+        "parameters": [
+          {
+            "name": "adminId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OtelDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OtelDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OtelDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Admin/{id}/sifre": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Id ile admin şifresini getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/KullaniciKart/{kullaniciId}": {
+      "get": {
+        "tags": [
+          "KullaniciKart"
+        ],
+        "parameters": [
+          {
+            "name": "kullaniciId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/KullaniciKart": {
+      "post": {
+        "tags": [
+          "KullaniciKart"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KullaniciKart"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KullaniciKart"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KullaniciKart"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/KullaniciKart/{id}": {
+      "delete": {
+        "tags": [
+          "KullaniciKart"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OdaTipi": {
+      "get": {
+        "tags": [
+          "OdaTipi"
+        ],
+        "summary": "Tum oda tiplerini getirir.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "OdaTipi"
+        ],
+        "summary": "Yeni oda tipini olusturur.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdaTipiCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdaTipiCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdaTipiCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdaTipiDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdaTipiDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdaTipiDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OdaTipi/{id}": {
+      "get": {
+        "tags": [
+          "OdaTipi"
+        ],
+        "summary": "Id ile oda tipini getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdaTipiDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdaTipiDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdaTipiDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "OdaTipi"
+        ],
+        "summary": "Var olan oda tipini gunceller.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdaTipiUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdaTipiUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdaTipiUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "OdaTipi"
+        ],
+        "summary": "Id ile oda tipini siler.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OdaTipi/otel/{otelId}": {
+      "get": {
+        "tags": [
+          "OdaTipi"
+        ],
+        "summary": "Bir otele ait oda tiplerini getirir.",
+        "parameters": [
+          {
+            "name": "otelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OdaTipi/availability": {
+      "get": {
+        "tags": [
+          "OdaTipi"
+        ],
+        "summary": "Tarih araligina gore oda tipi uygun mu kontrol eder.",
+        "parameters": [
+          {
+            "name": "odaTipiId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "giris",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "cikis",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OdaTipiResim/odatipi/{odaTipiId}": {
+      "get": {
+        "tags": [
+          "OdaTipiResim"
+        ],
+        "parameters": [
+          {
+            "name": "odaTipiId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiResimDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiResimDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiResimDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OdaTipiResim": {
+      "post": {
+        "tags": [
+          "OdaTipiResim"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdaTipiResimDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdaTipiResimDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdaTipiResimDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdaTipiResimDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdaTipiResimDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdaTipiResimDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OdaTipiResim/{id}": {
+      "delete": {
+        "tags": [
+          "OdaTipiResim"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Odeme": {
+      "get": {
+        "tags": [
+          "Odeme"
+        ],
+        "summary": "Tum odemeleri getirir.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdemeDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdemeDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdemeDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Odeme"
+        ],
+        "summary": "Yeni odeme kaydi olusturur (odeme islemini gerceklestirir).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdemeCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdemeCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdemeCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdemeDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdemeDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdemeDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Odeme/{id}": {
+      "get": {
+        "tags": [
+          "Odeme"
+        ],
+        "summary": "Id ile odeme getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdemeDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdemeDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OdemeDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Odeme"
+        ],
+        "summary": "Var olan odemeyi gunceller.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdemeUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdemeUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OdemeUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Odeme"
+        ],
+        "summary": "Id ile odeme kaydini siler.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Odeme/{id}/process": {
+      "post": {
+        "tags": [
+          "Odeme"
+        ],
+        "summary": "Odeme islemini yurutur (durum guncelleme, rezervasyonu onaylama vs.).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Odeme/rezervasyon/{rezId}": {
+      "get": {
+        "tags": [
+          "Odeme"
+        ],
+        "summary": "Bir rezervasyona ait odeme kayitlarini getirir.",
+        "parameters": [
+          {
+            "name": "rezId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdemeDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdemeDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdemeDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Otel": {
+      "get": {
+        "tags": [
+          "Otel"
+        ],
+        "summary": "Tum otelleri getirir.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OtelDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OtelDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OtelDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Otel"
+        ],
+        "summary": "Yeni otel olusturur.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtelCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtelCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtelCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtelDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtelDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtelDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Otel/{id}": {
+      "get": {
+        "tags": [
+          "Otel"
+        ],
+        "summary": "Id ile otel getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtelDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtelDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtelDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Otel"
+        ],
+        "summary": "Var olan oteli gunceller.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtelUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtelUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtelUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Otel"
+        ],
+        "summary": "Id ile oteli siler.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Otel/{id}/odaTipleri": {
+      "get": {
+        "tags": [
+          "Otel"
+        ],
+        "summary": "Bir otelin oda tiplerini getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OdaTipiDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Otel/{id}/admin": {
+      "get": {
+        "tags": [
+          "Otel"
+        ],
+        "summary": "Bir otelin yoneticisini getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdminDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OtelResim/otel/{otelId}": {
+      "get": {
+        "tags": [
+          "OtelResim"
+        ],
+        "parameters": [
+          {
+            "name": "otelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OtelResimDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OtelResimDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OtelResimDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OtelResim": {
+      "post": {
+        "tags": [
+          "OtelResim"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtelResimDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtelResimDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtelResimDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtelResimDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtelResimDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OtelResimDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OtelResim/{id}": {
+      "delete": {
+        "tags": [
+          "OtelResim"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rezervasyon": {
+      "get": {
+        "tags": [
+          "Rezervasyon"
+        ],
+        "summary": "Tum rezervasyonlari getirir.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RezervasyonDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RezervasyonDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RezervasyonDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Rezervasyon"
+        ],
+        "summary": "Yeni rezervasyon olusturur (once uygunluk kontrolu yapilabilir).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RezervasyonCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RezervasyonCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RezervasyonCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RezervasyonDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RezervasyonDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RezervasyonDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Rezervasyon/{id}": {
+      "get": {
+        "tags": [
+          "Rezervasyon"
+        ],
+        "summary": "Id ile rezervasyon getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RezervasyonDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RezervasyonDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RezervasyonDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Rezervasyon"
+        ],
+        "summary": "Var olan rezervasyonu gunceller.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RezervasyonUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RezervasyonUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RezervasyonUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Rezervasyon"
+        ],
+        "summary": "Id ile rezervasyonu siler veya iptal eder.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rezervasyon/check": {
+      "get": {
+        "tags": [
+          "Rezervasyon"
+        ],
+        "summary": "Oda tipi ve tarih araligina gore uygunluk kontrolu yapar.",
+        "parameters": [
+          {
+            "name": "odaTipiId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "giris",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "cikis",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Rezervasyon/{id}/confirm": {
+      "post": {
+        "tags": [
+          "Rezervasyon"
+        ],
+        "summary": "Rezervasyonu onaylar (durumunu gunceller).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rezervasyon/{id}/cancel": {
+      "post": {
+        "tags": [
+          "Rezervasyon"
+        ],
+        "summary": "Rezervasyonu iptal eder.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rezervasyon/kullanici/{appUserId}": {
+      "get": {
+        "tags": [
+          "Rezervasyon"
+        ],
+        "summary": "Bir musterinin tum rezervasyonlarini getirir.",
+        "parameters": [
+          {
+            "name": "appUserId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RezervasyonDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RezervasyonDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RezervasyonDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Yeni kullanıcı oluşturur.",
+        "requestBody": {
+          "description": "Kullanıcı oluşturma isteği",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserCommandRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserCommandRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserCommandRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Tüm kullanıcıları listeler.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/{id}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Belirli bir kullanıcıyı Id ile getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Kullanıcı Id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Kullanıcıyı günceller.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Kullanıcı Id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Güncellenecek kullanıcı bilgisi",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AppUser"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AppUser"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AppUser"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Kullanıcıyı siler.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Kullanıcı Id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/{id}/reservations": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Kullanıcının tüm rezervasyonlarını getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Kullanıcı Id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/{id}/payments": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Kullanıcının tüm ödeme kayıtlarını getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Kullanıcı Id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/{id}/changepassword": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Kullanıcının şifresini değiştirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Kullanıcı Id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Eski ve yeni şifre",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePasswordDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePasswordDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePasswordDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/{id}/settings": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Kullanıcı ayarlarını getirir.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Kullanıcı ayarlarını günceller.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserSettingsDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserSettingsDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserSettingsDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/Login": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginUserCommandRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginUserCommandRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginUserCommandRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Admin": {
+        "required": [
+          "kullaniciAdi",
+          "sifre"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kullaniciAdi": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "sifre": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "oteller": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Otel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdminCreateDto": {
+        "required": [
+          "kullaniciAdi",
+          "sifre"
+        ],
+        "type": "object",
+        "properties": {
+          "kullaniciAdi": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "sifre": {
+            "minLength": 4,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdminDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kullaniciAdi": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdminLoginDto": {
+        "required": [
+          "kullaniciAdi",
+          "sifre"
+        ],
+        "type": "object",
+        "properties": {
+          "kullaniciAdi": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "sifre": {
+            "minLength": 4,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdminUpdateDto": {
+        "required": [
+          "id",
+          "kullaniciAdi"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kullaniciAdi": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "sifre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AppUser": {
+        "required": [
+          "adiSoyadi"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailConfirmed": {
+            "type": "boolean"
+          },
+          "passwordHash": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "concurrencyStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumberConfirmed": {
+            "type": "boolean"
+          },
+          "twoFactorEnabled": {
+            "type": "boolean"
+          },
+          "lockoutEnd": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lockoutEnabled": {
+            "type": "boolean"
+          },
+          "accessFailedCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "adiSoyadi": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "rezervasyonlar": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Rezervasyon"
+            },
+            "nullable": true
+          },
+          "odemeler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Odeme"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChangePasswordDto": {
+        "type": "object",
+        "properties": {
+          "oldPassword": {
+            "type": "string",
+            "nullable": true
+          },
+          "newPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUserCommandRequest": {
+        "type": "object",
+        "properties": {
+          "kayitAd": {
+            "type": "string",
+            "nullable": true
+          },
+          "kayitEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "kayitSifre": {
+            "type": "string",
+            "nullable": true
+          },
+          "kayitSifreTekrar": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "KullaniciKart": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kullaniciId": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartIsim": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartSKT": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartCVV": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginUserCommandRequest": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "sifre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdaTipi": {
+        "required": [
+          "odaTipiAdi"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odaTipiAdi": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "aciklama": {
+            "type": "string",
+            "nullable": true
+          },
+          "otelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "otel": {
+            "$ref": "#/components/schemas/Otel"
+          },
+          "kapasite": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odaSayisi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fiyat": {
+            "type": "number",
+            "format": "double"
+          },
+          "odaTipiResimler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OdaTipiResim"
+            },
+            "nullable": true
+          },
+          "indirimOrani": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdaTipiCreateDto": {
+        "required": [
+          "fiyat",
+          "kapasite",
+          "odaTipiAdi",
+          "otelId"
+        ],
+        "type": "object",
+        "properties": {
+          "odaTipiAdi": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "aciklama": {
+            "type": "string",
+            "nullable": true
+          },
+          "otelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kapasite": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fiyat": {
+            "type": "number",
+            "format": "double"
+          },
+          "indirimOrani": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdaTipiDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odaTipiAdi": {
+            "type": "string",
+            "nullable": true
+          },
+          "aciklama": {
+            "type": "string",
+            "nullable": true
+          },
+          "otelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kapasite": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fiyat": {
+            "type": "number",
+            "format": "double"
+          },
+          "indirimOrani": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdaTipiResim": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odaTipiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "resimUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "odaTipi": {
+            "$ref": "#/components/schemas/OdaTipi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdaTipiResimDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odaTipiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "resimUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdaTipiUpdateDto": {
+        "required": [
+          "fiyat",
+          "id",
+          "kapasite",
+          "odaTipiAdi",
+          "otelId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odaTipiAdi": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "aciklama": {
+            "type": "string",
+            "nullable": true
+          },
+          "otelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kapasite": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fiyat": {
+            "type": "number",
+            "format": "double"
+          },
+          "indirimOrani": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Odeme": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rezervasyonId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rezervasyon": {
+            "$ref": "#/components/schemas/Rezervasyon"
+          },
+          "tutar": {
+            "type": "number",
+            "format": "double"
+          },
+          "odemeTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "yontem": {
+            "$ref": "#/components/schemas/OdemeYontemi"
+          },
+          "durum": {
+            "$ref": "#/components/schemas/OdemeDurumu"
+          },
+          "kartIsim": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartSKT": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartCVV": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdemeCreateDto": {
+        "required": [
+          "rezervasyonId",
+          "tutar",
+          "yontem"
+        ],
+        "type": "object",
+        "properties": {
+          "rezervasyonId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tutar": {
+            "type": "number",
+            "format": "double"
+          },
+          "yontem": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "kartIsim": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartSKT": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartCVV": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdemeDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rezervasyonId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tutar": {
+            "type": "number",
+            "format": "double"
+          },
+          "odemeTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "yontem": {
+            "type": "string",
+            "nullable": true
+          },
+          "durum": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartIsim": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartSKT": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartCVV": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdemeDurumu": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "OdemeUpdateDto": {
+        "required": [
+          "id",
+          "rezervasyonId",
+          "tutar",
+          "yontem"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rezervasyonId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tutar": {
+            "type": "number",
+            "format": "double"
+          },
+          "yontem": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "kartIsim": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartSKT": {
+            "type": "string",
+            "nullable": true
+          },
+          "kartCVV": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OdemeYontemi": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Otel": {
+        "required": [
+          "adresSatiri1",
+          "email",
+          "otelAdi",
+          "sehir",
+          "ulke"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "otelAdi": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "telefon": {
+            "maxLength": 20,
+            "type": "string",
+            "nullable": true
+          },
+          "adresSatiri1": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "sehir": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "ulke": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "puan": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "adminId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "admin": {
+            "$ref": "#/components/schemas/Admin"
+          },
+          "odaSayisi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "otelId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "otelResimler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OtelResim"
+            },
+            "nullable": true
+          },
+          "odaTipleri": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OdaTipi"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OtelCreateDto": {
+        "required": [
+          "adminId",
+          "adresSatiri1",
+          "email",
+          "otelAdi",
+          "sehir",
+          "ulke"
+        ],
+        "type": "object",
+        "properties": {
+          "otelAdi": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "telefon": {
+            "maxLength": 20,
+            "type": "string",
+            "nullable": true
+          },
+          "adresSatiri1": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "sehir": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "ulke": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "puan": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "adminId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OtelDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "otelAdi": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefon": {
+            "type": "string",
+            "nullable": true
+          },
+          "adresSatiri1": {
+            "type": "string",
+            "nullable": true
+          },
+          "sehir": {
+            "type": "string",
+            "nullable": true
+          },
+          "ulke": {
+            "type": "string",
+            "nullable": true
+          },
+          "puan": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OtelResim": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "otelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "resimUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "otel": {
+            "$ref": "#/components/schemas/Otel"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OtelResimDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "otelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "resimUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OtelUpdateDto": {
+        "required": [
+          "adminId",
+          "adresSatiri1",
+          "email",
+          "id",
+          "otelAdi",
+          "sehir",
+          "ulke"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "otelAdi": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "telefon": {
+            "maxLength": 20,
+            "type": "string",
+            "nullable": true
+          },
+          "adresSatiri1": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "sehir": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "ulke": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "puan": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "adminId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Rezervasyon": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "appUserId": {
+            "type": "string",
+            "nullable": true
+          },
+          "appUser": {
+            "$ref": "#/components/schemas/AppUser"
+          },
+          "odaTipiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odaTipi": {
+            "$ref": "#/components/schemas/OdaTipi"
+          },
+          "girisTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "cikisTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "rezervasyonTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "durum": {
+            "$ref": "#/components/schemas/RezervasyonDurumu"
+          },
+          "toplamUcret": {
+            "type": "number",
+            "format": "double"
+          },
+          "odemeler": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Odeme"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RezervasyonCreateDto": {
+        "required": [
+          "appUserId",
+          "cikisTarihi",
+          "girisTarihi",
+          "odaTipiId"
+        ],
+        "type": "object",
+        "properties": {
+          "appUserId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "odaTipiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "girisTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "cikisTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "toplamUcret": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RezervasyonDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "appUserId": {
+            "type": "string",
+            "nullable": true
+          },
+          "odaTipiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "girisTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "cikisTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "rezervasyonTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "durum": {
+            "type": "string",
+            "nullable": true
+          },
+          "toplamUcret": {
+            "type": "number",
+            "format": "double"
+          },
+          "otelId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "otelAdi": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RezervasyonDurumu": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "RezervasyonUpdateDto": {
+        "required": [
+          "cikisTarihi",
+          "girisTarihi",
+          "id",
+          "odaTipiId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "appUserId": {
+            "type": "string",
+            "nullable": true
+          },
+          "odaTipiId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "girisTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "cikisTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "toplamUcret": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserSettingsDto": {
+        "type": "object",
+        "properties": {
+          "adiSoyadi": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

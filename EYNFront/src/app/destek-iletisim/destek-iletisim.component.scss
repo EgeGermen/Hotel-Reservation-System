@@ -1,0 +1,119 @@
+.destek-kapsayici {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+}
+.sss {
+  width: 100%;
+  h3 {
+    color: #2d3a4b;
+    margin-bottom: 1rem;
+  }
+}
+.sss-soru {
+  background: #e0e7ff;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1.2rem;
+  .sss-baslik {
+    font-weight: 600;
+    color: #0077ff;
+    margin-bottom: 0.3rem;
+  }
+  .sss-yanit {
+    color: #4b5563;
+    font-size: 0.98rem;
+  }
+}
+.iletisim-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  h3 {
+    color: #2d3a4b;
+    margin-bottom: 0.7rem;
+  }
+  input, textarea {
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-size: 1rem;
+    transition: border 0.2s, box-shadow 0.2s;
+    &:focus {
+      border: 1.5px solid #0077ff;
+      outline: none;
+      box-shadow: 0 2px 8px rgba(0,119,255,0.08);
+    }
+  }
+  textarea {
+    min-height: 80px;
+    resize: vertical;
+  }
+  .gonder-btn {
+    background: linear-gradient(90deg, #0077ff 0%, #38bdf8 100%);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.7rem 2.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(56,189,248,0.10);
+    transition: background 0.2s, transform 0.2s;
+    &:hover {
+      background: linear-gradient(90deg, #005fcc 0%, #0077ff 100%);
+      transform: scale(1.05);
+    }
+  }
+}
+.toast-notification {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-60px);
+  background: linear-gradient(90deg, #38bdf8 0%, #0077ff 100%);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 24px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  box-shadow: 0 8px 32px rgba(56,189,248,0.18);
+  z-index: 9999;
+  opacity: 0;
+  animation: toast-in 0.5s forwards, toast-out 0.5s 2.5s forwards;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes toast-out {
+  from {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-60px);
+  }
+}
+@media (max-width: 600px) {
+  .destek-kapsayici {
+    padding: 1rem;
+  }
+}

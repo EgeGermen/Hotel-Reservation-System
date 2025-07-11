@@ -1,0 +1,10 @@
+<div *ngIf="kayitBasarili" class="toast-notification" [ngClass]="{'success': kayitRenk === 'success'}">Kayıt oldunuz.</div>
+<form class="kayit-form animate" #kayitForm="ngForm" (ngSubmit)="onRegister()">
+  <h2>Kayıt Ol</h2>
+  <input type="text" name="kayitAd" [(ngModel)]="kayitAd" placeholder="Ad Soyad" required>
+  <input type="email" name="kayitEmail" [(ngModel)]="kayitEmail" placeholder="E-posta" required>
+  <input type="password" name="kayitSifre" [(ngModel)]="kayitSifre" placeholder="Şifre" required>
+  <input type="password" name="kayitSifreTekrar" [(ngModel)]="kayitSifreTekrar" placeholder="Şifre Tekrar" required>
+  <button type="submit" [disabled]="kayitForm.invalid">Kayıt Ol</button>
+</form>
+

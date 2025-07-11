@@ -1,0 +1,71 @@
+<div class="rez-bilgi">
+  <h2>Misafir Bilgileri & Ödeme</h2>
+  <div class="fiyat-ozet">
+    <div><b>Oda:</b> {{ oda?.ad }}</div>
+    <div><b>Giriş:</b> {{ girisTarihi | date:'dd.MM.yyyy' }} <b>Çıkış:</b> {{ cikisTarihi | date:'dd.MM.yyyy' }}</div>
+    <div><b>Kişi:</b> {{ kisiSayisi }} <b>Gün:</b> {{ gunSayisi }}</div>
+    <div *ngIf="cocukSayisi > 0">
+      <b>Çocuk:</b>
+      <span *ngFor="let c of cocukYasOzet; let last = last">
+        {{c.count}} x {{c.yas}} yaş{{!last ? ', ' : ''}}
+      </span>
+      <span *ngIf="cocukYasOzet.length === 0">-</span>
+    </div>
+    <div class="toplam-fiyat"><b>Toplam Fiyat:</b> ₺{{ toplamFiyat }}</div>
+  </div>
+  <form class="bilgi-form" (ngSubmit)="ileri()">
+    <div class="form-row">
+      <input type="text" placeholder="Ad" [(ngModel)]="ad" name="ad" required />
+      <input type="text" placeholder="Soyad" [(ngModel)]="soyad" name="soyad" required />
+    </div>
+    <div class="form-row">
+      <input type="email" placeholder="E-posta" [(ngModel)]="email" name="email" required />
+      <input type="tel" placeholder="Telefon" [(ngModel)]="telefon" name="telefon" required />
+    </div>
+    <label class="odeme-yontemleri-label">Ödeme Yöntemi Seçiniz:</label>
+    <div class="odeme-yontemleri">
+      <label *ngFor="let y of odemeYontemleri">
+        <input type="radio" name="odemeYontemi" [value]="y" [(ngModel)]="seciliOdeme" (change)="odemeYontemiSec(y)" required />
+        <span>
+          {{ y === OdemeYontemi.KrediKart ? 'Kredi Kartı' : (y === OdemeYontemi.Nakit ? 'Otele Girişte Ödeme' : 'Online Ödeme') }}
+        </span>
+      </label>
+    </div>
+    <div *ngIf="seciliOdeme === OdemeYontemi.KrediKart">
+      <div *ngIf="tumKartlar.length > 0">
+        <label class="label">Kayıtlı Kartlarınız</label>
+        <div class="saved-cards">
+          <div *ngFor="let kart of tumKartlar; let i = index" class="saved-card">
+            <label class="card-radio-label">
+              <input type="radio" name="card" [value]="i" [(ngModel)]="selectedCardIndex" [checked]="selectedCardIndex === i">
+              <span class="card-mask">Kayıtlı Kart #{{ i + 1 }}</span>
+              <span class="card-name">
+                <b *ngIf="kart.kartIsim">{{ kart.kartIsim }}</b>
+                <span *ngIf="kart.kartIsim">&nbsp;</span>
+                {{ kart.kartNo ? '•••• ' + kart.kartNo.slice(-4) : '****' }}
+              </span>
+            </label>
+            <button type="button" class="delete-card-btn" (click)="silKart(i)">Kartı Sil</button>
+          </div>
+        </div>
+      </div>
+      <!-- Her durumda yeni kart ekle butonu -->
+      <button type="button" class="add-card-btn ileri-btn" (click)="yeniKartAc()" [disabled]="selectedCardIndex === 'new'">Yeni Kart Ekle</button>
+      <div *ngIf="selectedCardIndex === 'new'">
+        <label class="label">Kart Bilgileri</label>
+        <input type="text" placeholder="Kart Üzerindeki İsim" [(ngModel)]="kartIsim" name="kartIsim" class="input" />
+        <input type="text" placeholder="Kart Numarası" [(ngModel)]="kartNo" name="kartNo" maxlength="19" class="input" />
+        <div class="card-row">
+          <input type="text" placeholder="SKT (AA/YY)" [(ngModel)]="kartSKT" name="kartSKT" maxlength="5" class="input" />
+          <input type="text" placeholder="CVV" [(ngModel)]="kartCVV" name="kartCVV" maxlength="3" class="input" />
+        </div>
+        <div class="info-text">Kartınız güvenli bir şekilde kaydedilecektir.</div>
+        <button type="button" class="ileri-btn" (click)="kartiKaydet()" [disabled]="!kartIsim || !kartNo || !kartSKT || !kartCVV">Kartı Kaydet</button>
+      </div>
+    </div>
+    <button class="ileri-btn" type="submit" [disabled]="selectedCardIndex === 'new' || !formGecerli() || loading">
+      <span *ngIf="!loading">İleri</span>
+      <span *ngIf="loading">İşlem Yapılıyor...</span>
+    </button>
+  </form>
+</div>

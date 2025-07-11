@@ -1,0 +1,167 @@
+<div class="otel-yonetimi-container">
+  <h2>Otel Yönetimi</h2>
+  <div *ngIf="currentAdmin" class="admin-info">
+    <p>Hoş geldiniz, <strong>{{ currentAdmin.kullaniciAdi }}</strong></p>
+  </div>
+
+  <button class="primary-btn" (click)="toggleForm()">
+    {{ showForm ? 'Formu Kapat' : (isEditing ? 'Düzenlemeyi İptal Et' : 'Yeni Otel Ekle') }}
+  </button>
+
+  <div *ngIf="showForm" class="otel-form-card">
+    <form [formGroup]="otelForm" (ngSubmit)="onSubmit()" (keydown)="clearMessages()">
+      <div class="form-group">
+        <label>Otel Adı</label>
+        <input formControlName="otelAdi" type="text" placeholder="Otel adı" />
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input formControlName="email" type="email" placeholder="E-posta" />
+      </div>
+      <div class="form-group">
+        <label>Telefon</label>
+        <input formControlName="telefon" type="text" placeholder="Telefon" />
+      </div>
+      <div class="form-group">
+        <label>Adres</label>
+        <input formControlName="adresSatiri1" type="text" placeholder="Adres" />
+      </div>
+      <div class="form-group">
+        <label>Şehir</label>
+        <input formControlName="sehir" type="text" placeholder="Şehir" />
+      </div>
+      <div class="form-group">
+        <label>Ülke</label>
+        <input formControlName="ulke" type="text" placeholder="Ülke" />
+      </div>
+      <div class="form-group">
+        <label>Puan</label>
+        <input formControlName="puan" type="number" min="0" max="10" step="0.1" placeholder="Puan (0-10)" />
+      </div>
+      <div class="form-actions">
+        <button class="primary-btn" type="submit" [disabled]="otelForm.invalid || loading">
+          {{ isEditing ? 'Kaydet' : 'Ekle' }}
+        </button>
+        <button class="secondary-btn" type="button" (click)="resetForm()">Temizle</button>
+      </div>
+      <div *ngIf="otelForm.invalid && (otelForm.dirty || otelForm.touched)" class="error-message">
+        Lütfen tüm zorunlu alanları doldurun ve geçerli değerler girin.
+      </div>
+      <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+      <div *ngIf="successMessage" class="success-message">{{ successMessage }}</div>
+    </form>
+  </div>
+
+  <div class="otel-list">
+    <div *ngIf="loading" class="loading">Yükleniyor...</div>
+    <div *ngIf="!loading && oteller.length === 0" class="empty">Henüz otel eklenmemiş.</div>
+    <div *ngFor="let otel of oteller" class="otel-card">
+      <div class="otel-info">
+        <div class="otel-title">{{ otel.otelAdi }}</div>
+        <div class="otel-meta">{{ otel.sehir }}, {{ otel.ulke }}</div>
+        <div class="otel-meta">Puan: {{ otel.puan || '-' }}</div>
+        <div class="otel-meta">Telefon: {{ otel.telefon }}</div>
+        <div class="otel-meta">Email: {{ otel.email }}</div>
+        <div class="otel-meta">Adres: {{ otel.adresSatiri1 }}</div>
+      </div>
+      <div class="otel-actions">
+        <button class="edit-btn" (click)="editOtel(otel)">Düzenle</button>
+        <button class="delete-btn" (click)="deleteOtel(otel.id)">Sil</button>
+        <button class="primary-btn" (click)="toggleOdaTipiForm(otel.id)">Oda Tipi Ekle</button>
+        <button class="primary-btn" (click)="toggleOdaTipleri(otel.id)">Oda Tiplerini Listele</button>
+      </div>
+      <div *ngIf="odaTipiFormVisible[otel.id]" class="oda-tipi-form-card">
+        <form [formGroup]="odaTipiForm" (ngSubmit)="odaTipiEkle(otel.id)">
+          <div class="form-group">
+            <label>Oda Tipi Adı</label>
+            <input formControlName="odaTipiAdi" type="text" placeholder="Oda tipi adı" />
+          </div>
+          <div class="form-group">
+            <label>Açıklama</label>
+            <input formControlName="aciklama" type="text" placeholder="Açıklama" />
+          </div>
+          <div class="form-group">
+            <label>Kapasite</label>
+            <input formControlName="kapasite" type="number" min="1" placeholder="Kapasite" />
+          </div>
+          <div class="form-group">
+            <label>Fiyat</label>
+            <input formControlName="fiyat" type="number" min="0" placeholder="Fiyat" />
+          </div>
+          <div class="form-group">
+            <label>Oda Sayısı</label>
+            <input formControlName="odaSayisi" type="number" min="1" placeholder="Oda Sayısı" />
+          </div>
+          <div class="form-group">
+            <label>İndirim Oranı (%)</label>
+            <input formControlName="indirimOrani" type="number" min="0" max="100" />
+          </div>
+          <div class="form-actions">
+            <button class="primary-btn" type="submit" [disabled]="odaTipiForm.invalid || odaTipiLoading[otel.id]">Ekle</button>
+            <button class="secondary-btn" type="button" (click)="toggleOdaTipiForm(otel.id)">İptal</button>
+          </div>
+          <div *ngIf="odaTipiError[otel.id]" class="error-message">{{ odaTipiError[otel.id] }}</div>
+          <div *ngIf="odaTipiSuccess[otel.id]" class="success-message">{{ odaTipiSuccess[otel.id] }}</div>
+        </form>
+      </div>
+      <div *ngIf="odaTipleriVisible[otel.id]" class="oda-tipleri-listesi">
+        <h4>Oda Tipleri</h4>
+        <div *ngIf="!odaTipleri[otel.id]?.length">Oda tipi yok.</div>
+        <div *ngFor="let oda of odaTipleri[otel.id]">
+          <div *ngIf="odaTipiEditId[otel.id] !== oda.id">
+            <b>{{ oda.odaTipiAdi }}</b> - Kapasite: {{ oda.kapasite }} - Fiyat: ₺{{ oda.fiyat }} - Oda Sayısı: {{ oda.odaSayisi }}
+            <div class="oda-tipi-resimler">
+              <div *ngIf="odaTipiResimler[oda.id]?.length">
+                <div class="oda-tipi-resim-item" *ngFor="let resim of odaTipiResimler[oda.id]">
+                  <img [src]="resim.resimUrl" alt="Oda Tipi Resmi" width="60" height="45" style="object-fit:cover; border-radius:4px; margin-right:8px;" />
+                  <button class="delete-btn" (click)="deleteOdaTipiResim(oda.id, resim.id)">Sil</button>
+                </div>
+              </div>
+              <div class="oda-tipi-resim-ekle">
+                <input [(ngModel)]="odaTipiResimUrl[oda.id]" placeholder="Resim URL" [disabled]="odaTipiResimLoading[oda.id]" />
+                <button class="primary-btn" (click)="addOdaTipiResim(oda.id)" [disabled]="odaTipiResimLoading[oda.id] || !odaTipiResimUrl[oda.id]">Ekle</button>
+                <span *ngIf="odaTipiResimError[oda.id]" class="error-message">{{ odaTipiResimError[oda.id] }}</span>
+              </div>
+            </div>
+            <div class="oda-tipi-action-buttons">
+              <button class="edit-btn" (click)="startEditOdaTipi(otel.id, oda)">Düzenle</button>
+              <button class="delete-btn" (click)="deleteOdaTipi(otel.id, oda.id)">Sil</button>
+            </div>
+          </div>
+          <div *ngIf="odaTipiEditId[otel.id] === oda.id">
+            <form [formGroup]="odaTipiEditForm" (ngSubmit)="saveEditOdaTipi(otel.id, oda)">
+              <input formControlName="odaTipiAdi" placeholder="Oda Tipi Adı" />
+              <input formControlName="aciklama" placeholder="Açıklama" />
+              <input formControlName="kapasite" type="number" min="1" placeholder="Kapasite" />
+              <input formControlName="fiyat" type="number" min="0" placeholder="Fiyat" />
+              <input formControlName="odaSayisi" type="number" min="1" placeholder="Oda Sayısı" />
+              
+
+              <input type="number"
+                formControlName="indirimOrani"
+                placeholder="İndirim (%)"
+                min="0" max="100" />
+                
+              <button type="submit" [disabled]="odaTipiEditForm.invalid || odaTipiEditLoading[oda.id]">Kaydet</button>
+              <button type="button" (click)="cancelEditOdaTipi(otel.id)">İptal</button>
+              <span *ngIf="odaTipiEditError[oda.id]" class="error-message">{{ odaTipiEditError[oda.id] }}</span>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="otel-resimler">
+        <div *ngIf="otelResimler[otel.id]?.length">
+          <div class="otel-resim-item" *ngFor="let resim of otelResimler[otel.id]">
+            <img [src]="resim.resimUrl" alt="Otel Resmi" width="80" height="60" style="object-fit:cover; border-radius:4px; margin-right:8px;" />
+            <button class="delete-btn" (click)="deleteOtelResim(otel.id, resim.id)">Sil</button>
+          </div>
+        </div>
+        <div class="otel-resim-ekle">
+          <input [(ngModel)]="otelResimUrl[otel.id]" placeholder="Resim URL" [disabled]="otelResimLoading[otel.id]" />
+          <button class="primary-btn" (click)="addOtelResim(otel.id)" [disabled]="otelResimLoading[otel.id] || !otelResimUrl[otel.id]">Ekle</button>
+          <span *ngIf="otelResimError[otel.id]" class="error-message">{{ otelResimError[otel.id] }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

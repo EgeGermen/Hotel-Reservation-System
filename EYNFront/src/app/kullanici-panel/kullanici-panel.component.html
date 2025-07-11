@@ -1,0 +1,94 @@
+<div class="panel-wrapper"> 
+  <h2>Rezervasyonlarım</h2>
+
+  <!-- GELECEK -->
+  <div class="section">
+    <h3>📌 Gelecek Rezervasyonlar</h3>
+    <div *ngIf="gelecekRezervasyonlar.length === 0" class="empty-message">
+      Yaklaşan rezervasyonunuz bulunmamaktadır.
+    </div>
+
+    <div *ngFor="let rez of gelecekRezervasyonlar" class="rez-card gelecek" role="group" [attr.aria-label]="'Gelecek rezervasyon - ' + (rez.otelAdi || 'Otel Bilgisi Yok')">
+      <div class="rez-info">
+        <h4><strong>🏨 Otel:</strong> {{ rez.otelAdi || 'Otel Bilgisi Yok' }}</h4>
+        <div><strong>📅 Giriş:</strong> {{ rez.girisTarihi | date:'longDate' }}</div>
+        <div><strong>📅 Çıkış:</strong> {{ rez.cikisTarihi | date:'longDate' }}</div>
+        <div><strong>🏷 Durum:</strong> {{ rez.durum }}</div>
+        <div><strong>💰 Ücret:</strong> {{ rez.toplamUcret | currency:'TRY' }}</div>
+      </div>
+
+      <div class="btn-group">
+        <button *ngIf="rez.otelId"
+                (click)="detayaGit(rez.otelId)"
+                class="btn btn-blue"
+                title="Otele ait detayları gör"
+                aria-label="Detaylara git">
+          Detaylara Git
+        </button>
+
+        <button (click)="iptalEt(rez.id)"
+                class="btn btn-red"
+                title="Bu rezervasyonu iptal et"
+                aria-label="İptal Et">
+          İptal Et
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GÜNCEL -->
+  <div class="section">
+    <h3>📌 Güncel Rezervasyonlar</h3>
+    <div *ngIf="guncelRezervasyonlar.length === 0" class="empty-message">
+      Şu anda aktif rezervasyonunuz bulunmamaktadır.
+    </div>
+
+    <div *ngFor="let rez of guncelRezervasyonlar" class="rez-card" role="group" [attr.aria-label]="'Güncel rezervasyon - ' + (rez.otelAdi || 'Otel Bilgisi Yok')">
+      <div class="rez-info">
+        <h4><strong>🏨 Otel:</strong> {{ rez.otelAdi || 'Otel Bilgisi Yok' }}</h4>
+        <div><strong>📅 Giriş:</strong> {{ rez.girisTarihi | date:'longDate' }}</div>
+        <div><strong>📅 Çıkış:</strong> {{ rez.cikisTarihi | date:'longDate' }}</div>
+        <div><strong>🏷 Durum:</strong> {{ rez.durum }}</div>
+        <div><strong>💰 Ücret:</strong> {{ rez.toplamUcret | currency:'TRY' }}</div>
+      </div>
+
+      <div class="btn-group">
+        <button *ngIf="rez.otelId"
+                (click)="detayaGit(rez.otelId)"
+                class="btn btn-blue"
+                title="Otele ait detayları gör"
+                aria-label="Detaylara git">
+          Detaylara Git
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GEÇMİŞ -->
+  <div class="section">
+    <h3>📌 Geçmiş Rezervasyonlar</h3>
+    <div *ngIf="gecmisRezervasyonlar.length === 0" class="empty-message">
+      Geçmiş rezervasyon kaydı bulunmamaktadır.
+    </div>
+
+    <div *ngFor="let rez of gecmisRezervasyonlar" class="rez-card gecmis" role="group" [attr.aria-label]="'Geçmiş rezervasyon - ' + (rez.otelAdi || 'Otel Bilgisi Yok')">
+      <div class="rez-info">
+        <h4><strong>🏨 Otel:</strong> {{ rez.otelAdi || 'Otel Bilgisi Yok' }}</h4>
+        <div><strong>📅 Giriş:</strong> {{ rez.girisTarihi | date:'longDate' }}</div>
+        <div><strong>📅 Çıkış:</strong> {{ rez.cikisTarihi | date:'longDate' }}</div>
+        <div><strong>🏷 Durum:</strong> {{ rez.durum }}</div>
+        <div><strong>💰 Ücret:</strong> {{ rez.toplamUcret | currency:'TRY' }}</div>
+      </div>
+
+      <div class="btn-group">
+        <button *ngIf="rez.otelId"
+                (click)="detayaGit(rez.otelId)"
+                class="btn btn-blue"
+                title="Otele ait detayları gör"
+                aria-label="Detaylara git">
+          Detaylara Git
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Infrastructure\\WebApi.Persistence\\Migrations\\20250711083525_mig_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\WebApi.Persistence\\Migrations\\20250711083525_mig_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|c:\\users\\egege\\desktop\\staj-proje---eyn-otel-rezervasyon-sistemi - kopya\\webapi\\infrastructure\\webapi.persistence\\migrations\\20250710215920_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B7FF4A-2F85-4E7A-B953-71D4CCBB2BC2}|Infrastructure\\WebApi.Persistence\\WebApi.Persistence.csproj|solutionrelative:infrastructure\\webapi.persistence\\migrations\\20250710215920_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\egege\\desktop\\staj-proje---eyn-otel-rezervasyon-sistemi - kopya\\webapi\\presentation\\webapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\egege\\desktop\\staj-proje---eyn-otel-rezervasyon-sistemi - kopya\\webapi\\presentation\\webapi.api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\egege\\desktop\\staj-proje---eyn-otel-rezervasyon-sistemi - kopya\\webapi\\presentation\\webapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|c:\\users\\egege\\desktop\\staj-proje---eyn-otel-rezervasyon-sistemi - kopya\\webapi\\core\\webapi.domain\\entities\\odatipi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1629E93-4CCA-4C71-A776-4AA7065BC7FF}|Core\\WebApi.Domain\\WebApi.Domain.csproj|solutionrelative:core\\webapi.domain\\entities\\odatipi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\egege\\desktop\\staj-proje---eyn-otel-rezervasyon-sistemi - kopya\\webapi\\presentation\\webapi.api\\dtos\\odatipi\\odatipidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\dtos\\odatipi\\odatipidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\egege\\desktop\\staj-proje---eyn-otel-rezervasyon-sistemi - kopya\\webapi\\presentation\\webapi.api\\dtos\\odatipi\\odatipiupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\dtos\\odatipi\\odatipiupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|c:\\users\\egege\\desktop\\staj-proje---eyn-otel-rezervasyon-sistemi - kopya\\webapi\\presentation\\webapi.api\\dtos\\odatipi\\odatipicreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E48E8FA-7134-4F7A-A96D-23720C93F8D8}|Presentation\\WebApi.Api\\WebApi.Api.csproj|solutionrelative:presentation\\webapi.api\\dtos\\odatipi\\odatipicreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 220,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250711083525_mig_3.cs",
+              "DocumentMoniker": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Infrastructure\\WebApi.Persistence\\Migrations\\20250711083525_mig_3.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Migrations\\20250711083525_mig_3.cs",
+              "ToolTip": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Infrastructure\\WebApi.Persistence\\Migrations\\20250711083525_mig_3.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Migrations\\20250711083525_mig_3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T08:35:25.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250710215920_mig_1.cs",
+              "DocumentMoniker": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Infrastructure\\WebApi.Persistence\\Migrations\\20250710215920_mig_1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WebApi.Persistence\\Migrations\\20250710215920_mig_1.cs",
+              "ToolTip": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Infrastructure\\WebApi.Persistence\\Migrations\\20250710215920_mig_1.cs",
+              "RelativeToolTip": "Infrastructure\\WebApi.Persistence\\Migrations\\20250710215920_mig_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T21:59:20.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\appsettings.json",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T08:31:51.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\libman.json",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\libman.json",
+              "ToolTip": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\libman.json",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T08:31:49.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\Program.cs",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:23:36.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OdaTipi.cs",
+              "DocumentMoniker": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Core\\WebApi.Domain\\Entities\\OdaTipi.cs",
+              "RelativeDocumentMoniker": "Core\\WebApi.Domain\\Entities\\OdaTipi.cs",
+              "ToolTip": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Core\\WebApi.Domain\\Entities\\OdaTipi.cs",
+              "RelativeToolTip": "Core\\WebApi.Domain\\Entities\\OdaTipi.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:23:08.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OdaTipiUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiUpdateDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiUpdateDto.cs",
+              "ToolTip": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiUpdateDto.cs",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:22:41.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OdaTipiCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiCreateDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiCreateDto.cs",
+              "ToolTip": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiCreateDto.cs",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:22:32.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OdaTipiDto.cs",
+              "DocumentMoniker": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiDto.cs",
+              "ToolTip": "C:\\Users\\egege\\Desktop\\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\\WebApi\\Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiDto.cs",
+              "RelativeToolTip": "Presentation\\WebApi.Api\\Dtos\\OdaTipi\\OdaTipiDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:21:49.085Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

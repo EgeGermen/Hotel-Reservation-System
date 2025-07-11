@@ -1,0 +1,363 @@
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.sourcelink.json
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\WebApiMasaÜstü - Kopya - Kopya\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Documents\AAProjects\EYNRezervasyonSistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\YedekBackendWebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\DüzenlenenYEDEKWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\SONNNNWEBAPİ\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\Birleşmiş\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\Düzenleme yapılcak\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje - Servis ve modeller eklendi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje - - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProje Admin igirşi bile var - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT iletişim ekli\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Çocuk eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\STAJ PROJE SPAWNPOİNT - Girişler bile eklendi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StajProjeEnGüncel - Son Admin var son chack point - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\Ege Germen\Desktop\StjProje-Nevinin kaldı - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.sourcelink.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.deps.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Application.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\bin\Debug\net9.0\WebApi.Domain.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.AssemblyInfo.cs
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.sourcelink.json
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.A.C504E219.Up2Date
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\refint\WebApi.Application.dll
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\WebApi.Application.pdb
+C:\Users\egege\Desktop\Staj-Proje---EYN-Otel-Rezervasyon-Sistemi - Kopya\WebApi\Core\WebApi.Application\obj\Debug\net9.0\ref\WebApi.Application.dll

@@ -1,0 +1,153 @@
+<div class="otel-liste-container">
+  <div class="content-wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar-section" [class.hidden]="!showSidebar">
+      <app-otel-filtre 
+        (filtreDegisti)="onFiltreDegisti($event)">
+      </app-otel-filtre>
+    </div>
+
+    <!-- Ana İçerik -->
+    <div class="main-content">
+      <!-- Başlık ve Sıralama -->
+      <div class="liste-header">
+        <div class="results-info">
+          <h3>Otel Listesi</h3>
+          <span class="results-count">{{ filteredOteller.length }} otel bulundu</span>
+        </div>
+        
+        <div class="header-controls">
+          <!-- Mobil Sidebar Toggle -->
+          <button 
+            class="btn btn-outline-primary d-md-none sidebar-toggle"
+            (click)="toggleSidebar()">
+            <i class="fas fa-filter"></i> Filtreler
+          </button>
+          
+          <div class="sort-controls">
+            <label for="sortSelect">Sırala:</label>
+            <select id="sortSelect" class="form-select" (change)="onSortChange($event)">
+              <option value="otelAdi">Otel Adı (A-Z)</option>
+              <option value="sehir">Şehir</option>
+              <option value="puan">Puana Göre</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Yükleme Spinner -->
+      <div class="loading-container" *ngIf="loading">
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Yükleniyor...</span>
+        </div>
+        <p>Oteller yükleniyor...</p>
+      </div>
+
+      <!-- Otel Kartları -->
+      <div class="otel-grid" *ngIf="!loading">
+        <div 
+          class="otel-card" 
+          *ngFor="let otel of paginatedOtellers"
+          (click)="onOtelClick(otel)"
+          [class.selected]="false">
+          
+          <div class="otel-image">
+            <img [src]="getOtelImage(otel)" [alt]="otel.otelAdi" loading="lazy">
+            <div class="otel-overlay">
+              <button class="btn btn-primary btn-sm">Detayları Gör</button>
+            </div>
+          </div>
+
+          <div class="otel-content">
+            <div class="otel-header">
+              <h4 class="otel-name">{{ otel.otelAdi }}</h4>
+              <div class="otel-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>{{ otel.sehir }}, {{ otel.ulke }}</span>
+              </div>
+            </div>
+
+            <div class="otel-rating" *ngIf="otel.puan">
+              <div class="stars">
+                <i *ngFor="let star of getStarRating(otel.puan)" [class]="star"></i>
+              </div>
+              <span class="rating-text">{{ otel.puan }}/10</span>
+            </div>
+
+            <div class="otel-info">
+              <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <span>{{ otel.telefon }}</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <span>{{ otel.email }}</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-map-pin"></i>
+                <span>{{ otel.adresSatiri1 }}</span>
+              </div>
+            </div>
+
+            <div class="otel-actions">
+              <button class="btn btn-outline-primary btn-sm" [routerLink]="['/otel-detay', otel.id]">
+                <i class="fas fa-info-circle"></i> Detaylar
+              </button>
+              <button class="btn btn-success btn-sm" (click)="rezervasyonYap(otel)">
+                <i class="fas fa-calendar-check"></i> Rezervasyon
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sonuç Yok -->
+        <div class="no-results" *ngIf="filteredOteller.length === 0">
+          <div class="no-results-content">
+            <i class="fas fa-search fa-3x text-muted"></i>
+            <h4>Aradığınız kriterlere uygun otel bulunamadı</h4>
+            <p>Filtrelerinizi değiştirerek tekrar deneyiniz.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sayfalama -->
+      <div class="pagination-container" *ngIf="!loading && totalPages > 1">
+        <nav aria-label="Otel sayfaları">
+          <ul class="pagination justify-content-center">
+            <!-- Önceki Sayfa -->
+            <li class="page-item" [class.disabled]="currentPage === 1">
+              <a class="page-link" (click)="changePage(currentPage - 1)" role="button">
+                <i class="fas fa-chevron-left"></i>
+              </a>
+            </li>
+
+            <!-- Sayfa Numaraları -->
+            <li 
+              class="page-item" 
+              *ngFor="let page of pageNumbers"
+              [class.active]="page === currentPage">
+              <a class="page-link" (click)="changePage(page)" role="button">
+                {{ page }}
+              </a>
+            </li>
+
+            <!-- Sonraki Sayfa -->
+            <li class="page-item" [class.disabled]="currentPage === totalPages">
+              <a class="page-link" (click)="changePage(currentPage + 1)" role="button">
+                <i class="fas fa-chevron-right"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="pagination-info">
+          <span>
+            {{ (currentPage - 1) * itemsPerPage + 1 }} - 
+            {{ getCurrentPageEnd() }} 
+            / {{ filteredOteller.length }} otel
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 

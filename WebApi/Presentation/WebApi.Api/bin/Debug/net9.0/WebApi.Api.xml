@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi.Api</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi.Api.Controllers.AdminController">
+            <summary>
+            Admin işlemleri için controller.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.AdminController.GetAll">
+            <summary>
+            Tüm yöneticileri getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.AdminController.GetById(System.Int32)">
+            <summary>
+            Id ile yöneticiyi getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.AdminController.Create(WebApi.Api.Dtos.Admin.AdminCreateDto)">
+            <summary>
+            Yeni yönetici oluşturur.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.AdminController.Update(System.Int32,WebApi.Api.Dtos.Admin.AdminUpdateDto)">
+            <summary>
+            Var olan yöneticiyi günceller.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.AdminController.Delete(System.Int32)">
+            <summary>
+            Id ile yönetici kaydını siler.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.AdminController.GetByOtel(System.Int32)">
+            <summary>
+            Bir otele ait yöneticiyi getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.AdminController.Authenticate(WebApi.Api.Dtos.Admin.AdminLoginDto)">
+            <summary>
+            Yönetici kullanıcı adı ve parola ile kimlik doğrulama yapar.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.AdminController.GetOtellerByAdmin(System.Int32)">
+            <summary>
+            Bir adminin tüm otellerini getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.AdminController.GetSifre(System.Int32)">
+            <summary>
+            Id ile admin şifresini getirir.
+            </summary>
+        </member>
+        <member name="T:WebApi.Api.Controllers.OdaTipiController">
+            <summary>
+            OdaTipi işlemleri için controller.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdaTipiController.GetAll">
+            <summary>
+            Tum oda tiplerini getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdaTipiController.GetById(System.Int32)">
+            <summary>
+            Id ile oda tipini getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdaTipiController.Create(WebApi.Api.Dtos.OdaTipi.OdaTipiCreateDto)">
+            <summary>
+            Yeni oda tipini olusturur.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdaTipiController.Update(System.Int32,WebApi.Api.Dtos.OdaTipi.OdaTipiUpdateDto)">
+            <summary>
+            Var olan oda tipini gunceller.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdaTipiController.Delete(System.Int32)">
+            <summary>
+            Id ile oda tipini siler.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdaTipiController.GetByOtel(System.Int32)">
+            <summary>
+            Bir otele ait oda tiplerini getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdaTipiController.CheckAvailability(System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Tarih araligina gore oda tipi uygun mu kontrol eder.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdemeController.GetAll">
+            <summary>
+            Tum odemeleri getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdemeController.GetById(System.Int32)">
+            <summary>
+            Id ile odeme getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdemeController.Create(WebApi.Api.Dtos.Odeme.OdemeCreateDto)">
+            <summary>
+            Yeni odeme kaydi olusturur (odeme islemini gerceklestirir).
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdemeController.Update(System.Int32,WebApi.Api.Dtos.Odeme.OdemeUpdateDto)">
+            <summary>
+            Var olan odemeyi gunceller.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdemeController.Delete(System.Int32)">
+            <summary>
+            Id ile odeme kaydini siler.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdemeController.Process(System.Int32)">
+            <summary>
+            Odeme islemini yurutur (durum guncelleme, rezervasyonu onaylama vs.).
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OdemeController.GetByRezervasyon(System.Int32)">
+            <summary>
+            Bir rezervasyona ait odeme kayitlarini getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OtelController.GetAll">
+            <summary>
+            Tum otelleri getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OtelController.GetById(System.Int32)">
+            <summary>
+            Id ile otel getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OtelController.Create(WebApi.Api.Dtos.Otel.OtelCreateDto)">
+            <summary>
+            Yeni otel olusturur.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OtelController.Update(System.Int32,WebApi.Api.Dtos.Otel.OtelUpdateDto)">
+            <summary>
+            Var olan oteli gunceller.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OtelController.Delete(System.Int32)">
+            <summary>
+            Id ile oteli siler.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OtelController.GetOdaTipleri(System.Int32)">
+            <summary>
+            Bir otelin oda tiplerini getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.OtelController.GetAdmin(System.Int32)">
+            <summary>
+            Bir otelin yoneticisini getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.RezervasyonController.GetAll">
+            <summary>
+            Tum rezervasyonlari getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.RezervasyonController.GetById(System.Int32)">
+            <summary>
+            Id ile rezervasyon getirir.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.RezervasyonController.Create(WebApi.Api.Dtos.Rezervasyon.RezervasyonCreateDto)">
+            <summary>
+            Yeni rezervasyon olusturur (once uygunluk kontrolu yapilabilir).
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.RezervasyonController.Update(System.Int32,WebApi.Api.Dtos.Rezervasyon.RezervasyonUpdateDto)">
+            <summary>
+            Var olan rezervasyonu gunceller.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.RezervasyonController.Delete(System.Int32)">
+            <summary>
+            Id ile rezervasyonu siler veya iptal eder.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.RezervasyonController.CheckAvailability(System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Oda tipi ve tarih araligina gore uygunluk kontrolu yapar.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.RezervasyonController.Confirm(System.Int32)">
+            <summary>
+            Rezervasyonu onaylar (durumunu gunceller).
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.RezervasyonController.Cancel(System.Int32)">
+            <summary>
+            Rezervasyonu iptal eder.
+            </summary>
+        </member>
+        <member name="M:WebApi.Api.Controllers.RezervasyonController.GetByAppUser(System.String)">
+            <summary>
+            Bir musterinin tum rezervasyonlarini getirir.
+            </summary>
+        </member>
+        <member name="T:UsersController">
+            <summary>
+            Kullanıcı işlemleri için API controller.
+            </summary>
+        </member>
+        <member name="M:UsersController.CreateUser(WebApi.Application.Features.Commands.AppUser.CreateUser.CreateUserCommandRequest)">
+            <summary>
+            Yeni kullanıcı oluşturur.
+            </summary>
+            <param name="createUserCommandRequest">Kullanıcı oluşturma isteği</param>
+            <returns>Oluşturulan kullanıcıya dair bilgi</returns>
+        </member>
+        <member name="M:UsersController.GetAll">
+            <summary>
+            Tüm kullanıcıları listeler.
+            </summary>
+            <returns>Kullanıcı listesi</returns>
+        </member>
+        <member name="M:UsersController.GetById(System.String)">
+            <summary>
+            Belirli bir kullanıcıyı Id ile getirir.
+            </summary>
+            <param name="id">Kullanıcı Id</param>
+            <returns>Kullanıcı bilgisi</returns>
+        </member>
+        <member name="M:UsersController.Update(System.String,WebApi.Domain.Entities.Identity.AppUser)">
+            <summary>
+            Kullanıcıyı günceller.
+            </summary>
+            <param name="id">Kullanıcı Id</param>
+            <param name="updateUser">Güncellenecek kullanıcı bilgisi</param>
+        </member>
+        <member name="M:UsersController.Delete(System.String)">
+            <summary>
+            Kullanıcıyı siler.
+            </summary>
+            <param name="id">Kullanıcı Id</param>
+        </member>
+        <member name="M:UsersController.GetReservationsByUser(System.String)">
+            <summary>
+            Kullanıcının tüm rezervasyonlarını getirir.
+            </summary>
+            <param name="id">Kullanıcı Id</param>
+            <returns>Rezervasyon listesi</returns>
+        </member>
+        <member name="M:UsersController.GetPaymentsByUser(System.String)">
+            <summary>
+            Kullanıcının tüm ödeme kayıtlarını getirir.
+            </summary>
+            <param name="id">Kullanıcı Id</param>
+            <returns>Ödeme listesi</returns>
+        </member>
+        <member name="M:UsersController.ChangePassword(System.String,WebApi.Api.Dtos.AppUser.ChangePasswordDto)">
+            <summary>
+            Kullanıcının şifresini değiştirir.
+            </summary>
+            <param name="id">Kullanıcı Id</param>
+            <param name="dto">Eski ve yeni şifre</param>
+        </member>
+        <member name="M:UsersController.GetSettings(System.String)">
+            <summary>
+            Kullanıcı ayarlarını getirir.
+            </summary>
+        </member>
+        <member name="M:UsersController.UpdateSettings(System.String,WebApi.Api.Dtos.AppUser.UserSettingsDto)">
+            <summary>
+            Kullanıcı ayarlarını günceller.
+            </summary>
+        </member>
+    </members>
+</doc>

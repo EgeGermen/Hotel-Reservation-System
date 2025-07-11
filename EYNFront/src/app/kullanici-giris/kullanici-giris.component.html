@@ -1,0 +1,28 @@
+<div class="giris-container">
+  <div class="header">
+    <h1>EYN Hotel</h1>
+  </div>
+
+  <div class="tab-menu">
+    <button [routerLink]="['login']" routerLinkActive="active">
+      <i class="fas fa-sign-in-alt"></i>
+      Giriş Yap
+    </button>
+    <button [routerLink]="['register']" routerLinkActive="active">
+      <i class="fas fa-user-plus"></i>
+      Kayıt Ol
+    </button>
+    <button [routerLink]="['admin']" routerLinkActive="active">
+      <i class="fas fa-user-shield"></i>
+      Admin Girişi
+    </button>
+  </div>
+
+  <div class="form-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 EYN Hotel. Tüm hakları saklıdır.</p>
+  </div>
+</div>

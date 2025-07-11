@@ -1,0 +1,13 @@
+<div class="galeri-modal-backdrop" (click)="kapat()"></div>
+<div class="galeri-modal-content">
+  <button class="galeri-modal-close" (click)="kapat()">&times;</button>
+  <button class="galeri-modal-arrow left" (click)="prev()">&#8592;</button>
+  <img class="galeri-modal-main" [src]="resimler[currentIndex]" />
+  <button class="galeri-modal-arrow right" (click)="next()">&#8594;</button>
+  <div class="galeri-modal-thumbs">
+    <img *ngFor="let url of resimler; let i = index"
+         [src]="url"
+         (click)="currentIndex = i"
+         [class.selected]="i === currentIndex" />
+  </div>
+</div> 

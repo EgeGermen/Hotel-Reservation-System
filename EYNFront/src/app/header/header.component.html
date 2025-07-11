@@ -1,0 +1,30 @@
+<div *ngIf="cikisYapildi" class="toast-notification" [ngClass]="{'danger': cikisRenk === 'danger'}">Çıkış yapıldı.</div>
+<nav class="navbar">
+  <div class="navbar__logo" routerLink="/">EYN Hotel</div>
+  <ul class="navbar__links">
+    <li><a href="/">Anasayfa</a></li>
+    <li *ngIf="isUser"><a href="/panel">Rezervasyonlarım</a></li>
+    <li *ngIf="isAdmin"><a routerLink="/admin/otel-yonetimi">Otel Yönetimi</a></li>
+    <li><a href="/destek">Destek</a></li>
+    <li *ngIf="!isUser && !isAdmin">
+      <button class="navbar__login" routerLink="/kullanici-giris/login">Giriş Yap</button>
+    </li>
+    <li *ngIf="isUser || isAdmin" class="navbar__user-dropdown" [class.open]="dropdownOpen">
+      <span class="navbar__user" (click)="toggleDropdown()">
+        <span class="user-icon" style="color: #1976d2; vertical-align: middle; margin-right: 4px;">
+          <!-- Basit SVG user icon -->
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 20c0-2.2 3.6-4 8-4s8 1.8 8 4" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </span>
+        <span class="user-name" style="color: #1976d2; vertical-align: middle; font-weight: 500;">Hesap</span>
+        ▼
+      </span>
+      <div class="dropdown-menu" *ngIf="dropdownOpen">
+        <a *ngIf="isUser" (click)="goToSettings()">Ayarlar</a>
+        <a (click)="logout()">Çıkış Yap</a>
+      </div>
+    </li>
+  </ul>
+</nav>

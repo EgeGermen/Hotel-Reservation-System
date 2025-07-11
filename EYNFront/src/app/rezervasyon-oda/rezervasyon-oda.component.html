@@ -1,0 +1,74 @@
+<div class="rez-oda">
+  <h2>Rezervasyon Bilgileri</h2>
+
+  <div class="tarih-secimi">
+    <label>Giriş Tarihi:
+      <input type="date" [(ngModel)]="girisTarihi" name="girisTarihi">
+    </label>
+    <label>Çıkış Tarihi:
+      <input type="date" [(ngModel)]="cikisTarihi" name="cikisTarihi">
+    </label>
+  </div>
+
+  <div class="oda-listesi">
+    <div class="oda-kart" *ngFor="let oda of odalar" [class.secili]="seciliOdaId === oda.id" (click)="odaSec(oda.id)">
+      <div class="oda-img-wrapper">
+        <img [src]="getOdaImage(oda)" [alt]="oda.odaTipiAdi" />
+        <div *ngIf="oda.indirimOrani && oda.indirimOrani > 0" class="indirim-rozet">
+          %{{ oda.indirimOrani }} indirim
+        </div>
+      </div>
+
+      <div>
+        <h3>{{ oda.odaTipiAdi }}</h3>
+        <p>{{ oda.aciklama }}</p>
+        <div class="oda-fiyat">
+          <span *ngIf="oda.indirimOrani && oda.indirimOrani > 0" class="eski-fiyat">
+            ₺{{ oda.fiyat }}
+          </span>
+          <span *ngIf="oda.indirimOrani && oda.indirimOrani > 0" class="indirimli-fiyat">
+            ₺{{ oda.fiyat - (oda.fiyat * oda.indirimOrani / 100) | number:'1.0-0' }}
+          </span>
+          <span *ngIf="!oda.indirimOrani || oda.indirimOrani === 0">
+            ₺{{ oda.fiyat }}
+          </span>
+        </div>
+      </div>
+
+      <button type="button" [class.selected]="seciliOdaId === oda.id">
+        {{ seciliOdaId === oda.id ? 'Seçildi' : 'Seç' }}
+      </button>
+    </div>
+  </div>
+
+  <div class="kisi-secimi">
+    <label>Kişi Sayısı:
+      <select [(ngModel)]="kisiSayisi" name="kisiSayisi">
+        <option [ngValue]="null" disabled selected>Seçiniz</option>
+        <option *ngFor="let n of [1,2,3,4,5,6,7,8]">{{ n }}</option>
+      </select>
+    </label>
+    <label style="margin-left: 1rem;">Çocuk Sayısı:
+      <select [(ngModel)]="cocukSayisi" name="cocukSayisi" (ngModelChange)="onCocukSayisiChange()">
+        <option [ngValue]="0">0</option>
+        <option *ngFor="let n of [1,2,3,4]">{{ n }}</option>
+      </select>
+    </label>
+    <ng-container *ngFor="let i of getCocukIndexes()">
+      <label style="margin-left: 0.5rem;">Çocuk {{i+1}} Yaşı:
+        <select [(ngModel)]="cocukYaslari[i]" [name]="'cocukYas'+i">
+          <option [ngValue]="null" disabled selected>Seçiniz</option>
+          <option [ngValue]="'0-6'">0-6</option>
+          <option [ngValue]="'7-12'">7-12</option>
+        </select>
+      </label>
+    </ng-container>
+  </div>
+
+  <div *ngIf="hataMesaji" class="rez-hata">{{ hataMesaji }}</div>
+
+  <button class="ileri-btn" [disabled]="ileriDisabled()" (click)="ileri()">
+    <span *ngIf="!loading">İleri</span>
+    <span *ngIf="loading">Kontrol Ediliyor...</span>
+  </button>
+</div>
