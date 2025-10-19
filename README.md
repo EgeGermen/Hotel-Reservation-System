@@ -1,84 +1,83 @@
-
-# EYN Otel Rezervasyon Sistemi
+# EYN Hotel Reservation System
 
 **Author: Ege Germen**
 
-## Proje Hakkında
+## About the Project
 
-EYN Otel Rezervasyon Sistemi, kullanıcıların otel rezervasyonu yapabileceği, otelleri listeleyebileceği, filtreleyebileceği ve otel detaylarını görüntüleyebileceği bir web uygulamasıdır. Proje, modern bir mimari ve teknolojiler kullanılarak geliştirilmiştir.
+EYN Hotel Reservation System is a web application that allows users to make hotel reservations, list hotels, filter them, and view hotel details. The project has been developed using modern architecture and technologies.
 
-## Mimariler
+## Architectures
 
-### Backend Mimarisi: Onion Architecture
+### Backend Architecture: Onion Architecture
 
-Backend, **Onion Architecture** prensiplerine uygun olarak geliştirilmiştir. Bu mimari, projenin katmanlı bir yapıya sahip olmasını, bağımlılıkların merkeze doğru tek yönlü olmasını ve projenin daha test edilebilir, sürdürülebilir ve ölçeklenebilir olmasını sağlar.
+The backend has been developed in accordance with **Onion Architecture** principles. This architecture ensures that the project has a layered structure, dependencies are unidirectional towards the center, and the project is more testable, maintainable, and scalable.
 
-- **Core Katmanı:**
-    - **Domain:** Projenin temel iş mantığını ve varlıklarını içerir. Hiçbir katmana bağımlılığı yoktur.
-    - **Application:** İş akışlarını, komutları, sorguları ve DTO'ları (Data Transfer Objects) içerir. `MediatR` kütüphanesi ile CQRS (Command Query Responsibility Segregation) deseni uygulanmıştır.
-- **Infrastructure Katmanı:**
-    - **Persistence:** Veritabanı işlemlerini, Entity Framework Core context'ini ve migration'ları içerir. PostgreSQL veritabanı kullanılmıştır.
-    - **Infrastructure:** Token yönetimi gibi altyapısal servisleri içerir.
-- **Presentation Katmanı:**
-    - **WebApi.Api:** Kullanıcıdan gelen istekleri karşılayan ve cevapları döndüren API controller'larını içerir. Swagger ile API dokümantasyonu sunulmaktadır.
+- **Core Layer:**
+    - **Domain:** Contains the fundamental business logic and entities of the project. It has no dependencies on any layer.
+    - **Application:** Contains business workflows, commands, queries, and DTOs (Data Transfer Objects). The CQRS (Command Query Responsibility Segregation) pattern has been implemented using the `MediatR` library.
+- **Infrastructure Layer:**
+    - **Persistence:** Contains database operations, Entity Framework Core context, and migrations. PostgreSQL database is used.
+    - **Infrastructure:** Contains infrastructural services such as token management.
+- **Presentation Layer:**
+    - **WebApi.Api:** Contains API controllers that handle incoming requests from users and return responses. API documentation is provided with Swagger.
 
-### Frontend Mimarisi: Component-Based Architecture
+### Frontend Architecture: Component-Based Architecture
 
-Frontend, **Angular** ile **Component-Based Architecture** kullanılarak geliştirilmiştir. Bu mimari, arayüzün yeniden kullanılabilir ve yönetilebilir bileşenlere ayrılmasını sağlar.
+The frontend has been developed using **Angular** with **Component-Based Architecture**. This architecture allows the interface to be divided into reusable and manageable components.
 
-- **Components:** Arayüzün her bir parçasını temsil eden bileşenlerden oluşur (örneğin, `otel-liste`, `otel-detay`, `rezervasyon-onay`).
-- **Services:** API istekleri, kimlik doğrulama ve durum yönetimi gibi iş mantığını içerir.
-- **Modules:** Uygulamanın farklı özelliklerini gruplayan modüllerden oluşur.
+- **Components:** Consists of components representing each part of the interface (e.g., `otel-liste`, `otel-detay`, `rezervasyon-onay`).
+- **Services:** Contains business logic such as API requests, authentication, and state management.
+- **Modules:** Consists of modules that group different features of the application.
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
 ### Backend
 
-- **.NET 9.0:** Projenin geliştirildiği ana platform.
-- **ASP.NET Core:** Web API oluşturmak için kullanılan framework.
-- **Entity Framework Core:** Veritabanı işlemleri için kullanılan ORM (Object-Relational Mapping) aracı.
-- **PostgreSQL:** Veritabanı olarak kullanılmıştır.
-- **MediatR:** CQRS desenini uygulamak için kullanılmıştır.
-- **JWT (JSON Web Token):** Kimlik doğrulama ve yetkilendirme için kullanılmıştır.
-- **Swagger:** API dokümantasyonu için kullanılmıştır.
+- **.NET 9.0:** The main platform on which the project is developed.
+- **ASP.NET Core:** Framework used to create the Web API.
+- **Entity Framework Core:** ORM (Object-Relational Mapping) tool used for database operations.
+- **PostgreSQL:** Used as the database.
+- **MediatR:** Used to implement the CQRS pattern.
+- **JWT (JSON Web Token):** Used for authentication and authorization.
+- **Swagger:** Used for API documentation.
 
 ### Frontend
 
-- **Angular 18:** Frontend uygulamasının geliştirildiği framework.
-- **TypeScript:** JavaScript'in statik tipli bir üst kümesi.
-- **RxJS:** Asenkron ve olay tabanlı programlama için kullanılmıştır.
-- **SCSS:** CSS'in daha gelişmiş bir versiyonu.
+- **Angular 18:** The framework on which the frontend application is developed.
+- **TypeScript:** A statically typed superset of JavaScript.
+- **RxJS:** Used for asynchronous and event-based programming.
+- **SCSS:** An advanced version of CSS.
 
-## Kurulum ve Çalıştırma
+## Installation and Running
 
 ### Backend
 
-1. **Veritabanı Ayarları:** `WebApi/Presentation/WebApi.Api/appsettings.json` dosyasındaki `ConnectionStrings` bölümünü kendi PostgreSQL veritabanı bilgilerinizle güncelleyin.
-2. **Migration'ları Uygulama:** `WebApi.Persistence` projesinin olduğu dizinde aşağıdaki komutu çalıştırarak veritabanı şemasını oluşturun:
+1. **Database Settings:** Update the `ConnectionStrings` section in the `WebApi/Presentation/WebApi.Api/appsettings.json` file with your own PostgreSQL database information.
+2. **Apply Migrations:** Run the following command in the directory where the `WebApi.Persistence` project is located to create the database schema:
    ```bash
    dotnet ef database update
    ```
-3. **Uygulamayı Çalıştırma:** `WebApi.Api` projesinin olduğu dizinde aşağıdaki komutu çalıştırın:
+3. **Run the Application:** Run the following command in the directory where the `WebApi.Api` project is located:
    ```bash
    dotnet run
    ```
 
 ### Frontend
 
-1. **Bağımlılıkları Yükleme:** `EYNFront` dizininde aşağıdaki komutu çalıştırın:
+1. **Install Dependencies:** Run the following command in the `EYNFront` directory:
    ```bash
    npm install
    ```
-2. **Uygulamayı Çalıştırma:** `EYNFront` dizininde aşağıdaki komutu çalıştırın:
+2. **Run the Application:** Run the following command in the `EYNFront` directory:
    ```bash
    ng serve
    ```
-Uygulama, `http://localhost:4200/` adresinde çalışacaktır.
+The application will run at `http://localhost:4200/`.
 
-## API Dokümantasyonu
+## API Documentation
 
-Backend uygulaması çalıştırıldığında, Swagger arayüzü üzerinden API dokümantasyonuna erişebilirsiniz. Varsayılan olarak, dokümantasyon `http://localhost:5000/swagger` (veya benzeri bir port) adresinde bulunur.
+When the backend application is running, you can access the API documentation through the Swagger interface. By default, the documentation is located at `http://localhost:5000/swagger` (or a similar port).
 
-## Projenin Amacı
+## Project Purpose
 
-Bu proje, staj kapsamında geliştirilmiş olup, modern web geliştirme teknolojilerini ve mimarilerini kullanarak bir otel rezervasyon sistemi oluşturmayı amaçlamaktadır. Proje, hem backend hem de frontend geliştirme süreçlerini kapsayarak, tam bir web uygulaması geliştirme deneyimi sunmaktadır.
+This project has been developed as part of an internship, aiming to create a hotel reservation system using modern web development technologies and architectures. The project covers both backend and frontend development processes, providing a complete web application development experience.
